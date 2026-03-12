@@ -1,0 +1,24 @@
+{
+  "name": "embeddings-lambda",
+  "version": "1.0.0",
+  "description": "Embedding Generation Service Lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.0.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "@aws-sdk/client-cloudwatch": "^3.0.0",
+    "@aws-sdk/client-lambda": "^3.0.0",
+    "@aws-sdk/credential-provider-node": "^3.0.0",
+    "@opensearch-project/opensearch": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

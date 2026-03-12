@@ -1,0 +1,21 @@
+{
+  "name": "@inquiry-growth/events",
+  "version": "1.0.0",
+  "description": "Event ingestion service for Inquiry Growth Engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/lib-dynamodb": "^3.600.0",
+    "@aws-sdk/client-kinesis": "^3.600.0",
+    "@aws-sdk/client-cloudwatch": "^3.600.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

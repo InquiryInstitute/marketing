@@ -1,0 +1,25 @@
+{
+  "name": "@inquiry-growth/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types and validation schemas for Inquiry Growth Engine",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Tests not configured yet\" && exit 0"
+  },
+  "keywords": [
+    "types",
+    "validation",
+    "inquiry-growth-engine"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

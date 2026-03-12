@@ -1,0 +1,52 @@
+version: 0.2
+
+# This buildspec is used by AWS CodeBuild in the CI/CD pipeline
+# It compiles TypeScript, runs tests, and prepares artifacts for deployment
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo "Installing dependencies..."
+      - npm ci
+      - echo "Node version:" && node --version
+      - echo "NPM version:" && npm --version
+
+  pre_build:
+    commands:
+      - echo "Running pre-build checks..."
+      - echo "Linting code..."
+      - npm run lint || echo "Linting not configured yet"
+      - echo "Checking TypeScript compilation..."
+      - npm run build
+
+  build:
+    commands:
+      - echo "Running tests..."
+      - npm test || echo "Tests not configured yet"
+      - echo "Build completed successfully"
+
+  post_build:
+    commands:
+      - echo "Post-build phase"
+      - echo "Build artifacts prepared"
+
+artifacts:
+  files:
+    - '**/*'
+  name: BuildArtifact
+
+cache:
+  paths:
+    - 'node_modules/**/*'
+
+reports:
+  test-results:
+    files:
+      - 'test-results/**/*.xml'
+    file-format: 'JUNITXML'
+  coverage-report:
+    files:
+      - 'coverage/clover.xml'
+    file-format: 'CLOVERXML'

@@ -1,0 +1,43 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "IAMUsers",
+      "Effect": "Allow",
+      "Action": [
+        "iam:*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "AllServices",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:*",
+        "cloudformation:*",
+        "s3:*",
+        "dynamodb:*",
+        "lambda:*",
+        "apigateway:*",
+        "cognito-idp:*",
+        "kinesis:*",
+        "elasticache:*",
+        "es:*",
+        "aoss:*",
+        "logs:*",
+        "cloudwatch:*",
+        "ses:*",
+        "bedrock:*",
+        "sts:*",
+        "ssm:*",
+        "kms:*",
+        "sns:*",
+        "sqs:*",
+        "events:*",
+        "states:*",
+        "xray:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

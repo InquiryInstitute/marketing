@@ -1,0 +1,53 @@
+{
+  "name": "inquiry-growth-engine",
+  "version": "1.0.0",
+  "description": "Inquiry Growth Engine - AWS CDK Infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "echo \"Linting not configured yet\" && exit 0",
+    "cdk": "cdk",
+    "cdk:synth": "cdk synth",
+    "cdk:synth:dev": "cdk synth -c env=dev",
+    "cdk:synth:staging": "cdk synth -c env=staging",
+    "cdk:synth:prod": "cdk synth -c env=prod",
+    "cdk:deploy:dev": "cdk deploy --all -c env=dev",
+    "cdk:deploy:staging": "cdk deploy --all -c env=staging",
+    "cdk:deploy:prod": "cdk deploy --all -c env=prod --require-approval broadening",
+    "cdk:diff:dev": "cdk diff -c env=dev",
+    "cdk:diff:staging": "cdk diff -c env=staging",
+    "cdk:diff:prod": "cdk diff -c env=prod",
+    "cdk:destroy:dev": "cdk destroy --all -c env=dev",
+    "pipeline:synth:dev": "cdk synth -a 'npx ts-node --prefer-ts-exts cdk/bin/pipeline-app.ts' -c env=dev",
+    "pipeline:synth:staging": "cdk synth -a 'npx ts-node --prefer-ts-exts cdk/bin/pipeline-app.ts' -c env=staging",
+    "pipeline:synth:prod": "cdk synth -a 'npx ts-node --prefer-ts-exts cdk/bin/pipeline-app.ts' -c env=prod",
+    "pipeline:deploy:dev": "cdk deploy -a 'npx ts-node --prefer-ts-exts cdk/bin/pipeline-app.ts' -c env=dev",
+    "pipeline:deploy:staging": "cdk deploy -a 'npx ts-node --prefer-ts-exts cdk/bin/pipeline-app.ts' -c env=staging",
+    "pipeline:deploy:prod": "cdk deploy -a 'npx ts-node --prefer-ts-exts cdk/bin/pipeline-app.ts' -c env=prod",
+    "test": "echo \"Tests not configured yet\" && exit 0"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "infrastructure",
+    "inquiry-growth-engine"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "aws-cdk": "^2.1109.0",
+    "aws-cdk-lib": "^2.241.0",
+    "constructs": "^10.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.21",
+    "@aws-sdk/client-cloudformation": "^3.0.0",
+    "@aws-sdk/credential-provider-node": "^3.0.0",
+    "@opensearch-project/opensearch": "^2.0.0"
+  }
+}
