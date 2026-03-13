@@ -3,7 +3,7 @@ node_modules
 .pnpm-store
 
 # Build output
-dist
+# dist - commented out for GitHub Pages deployment
 build
 
 # Environment variables
