@@ -41,10 +41,10 @@
     <div v-else class="slide-deck">
       <div class="reveal">
         <div class="slides">
-          <div v-for="(slide, index) in slides" :key="index" class="slide">
-            <h1 v-if="slide.title" class="slide-title">{{ slide.title }}</h1>
-            <div v-html="slide.content" class="slide-content"></div>
-          </div>
+          <section data-markdown="/martech/castalia-marketing-deck.md"
+                   data-separator="^\n---\n$"
+                   data-separator-vertical="^\n--\n$">
+          </section>
         </div>
       </div>
     </div>
@@ -56,32 +56,6 @@ import { ref, onMounted } from 'vue';
 import { supabase, checkAuth, loginWithGoogle, logout as doLogout, getUser } from './main';
 
 const user = ref<any>(null);
-const slides = ref<any[]>([]);
-
-// Load slides from markdown
-const loadSlides = async () => {
-  try {
-    const response = await fetch('/martech/castalia-marketing-deck.md');
-    const markdown = await response.text();
-    
-    // Parse markdown into slides
-    const slideBlocks = markdown.split(/---\n/);
-    
-    slides.value = slideBlocks.map((block, index) => {
-      const lines = block.trim().split('\n');
-      const title = lines[0].replace(/^# /, '');
-      const content = lines.slice(1).join('\n');
-      
-      return {
-        index,
-        title,
-        content,
-      };
-    });
-  } catch (error) {
-    console.error('Error loading slides:', error);
-  }
-};
 
 // Initialize auth
 const initAuth = async () => {
@@ -123,31 +97,29 @@ const handleLogout = async () => {
 // Initialize on mount
 onMounted(async () => {
   await initAuth();
-  await loadSlides();
   
-  // Initialize Reveal.js
+  // Initialize Reveal.js after auth check
   if (user.value) {
-    const revealElement = document.querySelector('.reveal');
-    if (revealElement) {
-      const reveal = new Reveal(revealElement, {
-        plugins: [
-          RevealMarkdown,
-          RevealHighlight,
-          RevealNotes,
-        ],
-      });
-      
-      reveal.initialize({
-        hash: true,
-        transition: 'slide',
-        transitionSpeed: 'default',
-        backgroundTransition: 'fade',
-      });
-      
-      reveal.addEventListener('slidechanged', (event: any) => {
-        console.log('Slide changed:', event.indexh, event.indexv);
-      });
-    }
+    // Wait for DOM to be ready
+    setTimeout(() => {
+      const revealElement = document.querySelector('.reveal');
+      if (revealElement) {
+        const reveal = new Reveal(revealElement, {
+          plugins: [
+            RevealMarkdown,
+            RevealHighlight,
+            RevealNotes,
+          ],
+        });
+        
+        reveal.initialize({
+          hash: true,
+          transition: 'slide',
+          transitionSpeed: 'default',
+          backgroundTransition: 'fade',
+        });
+      }
+    }, 100);
   }
 });
 </script>
