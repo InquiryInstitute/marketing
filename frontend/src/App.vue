@@ -127,24 +127,27 @@ onMounted(async () => {
   
   // Initialize Reveal.js
   if (user.value) {
-    const reveal = new Reveal('.reveal', {
-      plugins: [
-        RevealMarkdown,
-        RevealHighlight,
-        RevealNotes,
-      ],
-    });
-    
-    reveal.initialize({
-      hash: true,
-      transition: 'slide',
-      transitionSpeed: 'default',
-      backgroundTransition: 'fade',
-    });
-    
-    reveal.addEventListener('slidechanged', (event: any) => {
-      console.log('Slide changed:', event.indexh, event.indexv);
-    });
+    const revealElement = document.querySelector('.reveal');
+    if (revealElement) {
+      const reveal = new Reveal(revealElement, {
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealNotes,
+        ],
+      });
+      
+      reveal.initialize({
+        hash: true,
+        transition: 'slide',
+        transitionSpeed: 'default',
+        backgroundTransition: 'fade',
+      });
+      
+      reveal.addEventListener('slidechanged', (event: any) => {
+        console.log('Slide changed:', event.indexh, event.indexv);
+      });
+    }
   }
 });
 </script>
