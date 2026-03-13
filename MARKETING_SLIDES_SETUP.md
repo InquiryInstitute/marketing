@@ -5,23 +5,29 @@
 - ✅ Supabase authentication configured
 - ✅ Local reveal.js (no CDN dependencies)
 - ✅ PDF version available: `castalia-marketing-deck.pdf`
+- ✅ Auth state handling fixed - properly waits for Reveal.js to load
+- ⚠️ **ACTION REQUIRED**: Configure Supabase redirect URLs (see below)
 
 ## Required Configuration
 
-### Supabase Redirect URLs
-You need to add the marketing slides URL to Supabase:
+### Supabase Redirect URLs (MUST BE DONE IN DASHBOARD)
+The Supabase CLI doesn't support updating redirect URLs - you must do this in the dashboard:
 
 1. Go to: https://supabase.com/dashboard/project/pilmscrodlitdrygabvo/auth/url-configuration
 
 2. **Site URL** (keep as is):
    - `https://castalia.institute`
 
-3. **Redirect URLs** (add these):
-   - `https://castalia.institute/**` (main app)
-   - `https://inquiry.institute/**` (legacy, for migration)
-   - `https://inquiryinstitute.github.io/martech/**` (marketing slides)
+3. **Redirect URLs** - Add these to the existing list (don't remove existing ones):
+   - `https://inquiryinstitute.github.io/martech/**`
+   
+   Keep any existing URLs like:
+   - `https://castalia.institute/**`
+   - `https://inquiry.institute/**`
 
-4. Save changes
+4. Click "Save" at the bottom of the page
+
+5. Test by visiting: https://inquiryinstitute.github.io/martech/
 
 ## How It Works
 
