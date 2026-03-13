@@ -266,8 +266,11 @@
       }
     }
 
-    // Initialize Reveal.js
+    // Initialize Reveal.js (once only)
+    let revealInitialized = false;
     function initReveal() {
+      if (revealInitialized) return;
+      revealInitialized = true;
       const revealElement = document.querySelector('.reveal');
       if (revealElement) {
         const reveal = new Reveal(revealElement, {
