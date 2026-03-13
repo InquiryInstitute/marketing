@@ -23,7 +23,7 @@ export async function loginWithGoogle() {
         access_type: 'offline',
         prompt: 'consent',
       },
-      redirectTo: window.location.origin + window.location.pathname,
+      redirectTo: 'https://inquiryinstitute.github.io/martech/',
     },
   });
   
