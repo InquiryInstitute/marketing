@@ -270,16 +270,21 @@
       if (revealInitialized) return;
       revealInitialized = true;
       const revealElement = document.querySelector('.reveal');
+      console.log('initReveal called, element:', revealElement);
       if (revealElement) {
         const reveal = new Reveal(revealElement, {
           plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         });
         
         reveal.initialize({
-          hash: true,
+          hash: false,
           transition: 'slide',
           transitionSpeed: 'default',
           backgroundTransition: 'fade',
+        }).then(() => {
+          console.log('Reveal ready, slides:', reveal.getTotalSlides());
+        }).catch(err => {
+          console.error('Reveal init error:', err);
         });
       }
     }
