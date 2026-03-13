@@ -52,8 +52,8 @@ layout: section
 - Publishes high-quality content at **5x velocity**
 - Learns from user behavior to **personalize recommendations**
 - Combines human expertise with **AI assistance**
-- Launches on **$3K in cloud credits** — scales only on revenue
-- Targets **< $0.50 per user/month** at scale
+- Launches on **$3K in cloud credits** — funded by crowdfunding + product revenue
+- **Atlas & TerrAIn** generate healthy margins from day one
 
 </v-clicks>
 
@@ -198,8 +198,8 @@ layoutClass: gap-16
 
 <br>
 
-**Cost:** Funded by early revenue
-<br>Spend only what we earn — target break-even by month 6
+**Cost:** Crowdfunding + early Atlas/TerrAIn revenue
+<br>Crowdfunding validates demand; product margins fund growth
 
 ---
 layout: two-cols
@@ -236,16 +236,18 @@ layoutClass: gap-16
 
 ---
 
-# Why Bootstrap?
+# Funding Strategy
+
+**Cloud Credits → Crowdfunding → Product Revenue**
 
 <v-clicks>
 
-- **No dilution** — we retain full ownership and control
-- **Revenue discipline** — every feature must earn its keep
-- **$3K cloud credits** — $1K AWS + $2K Google Cloud covers MVP infrastructure
+- **$3K cloud credits** — $1K AWS + $2K GCP covers MVP infrastructure at zero cost
+- **Crowdfunding campaign** — validate demand, build community, and fund Phase 2
+- **Atlas subscriptions** — recurring SaaS revenue with **75-85% gross margins**
+- **TerrAIn projects** — AI content services for institutions with **70-80% margins**
 - **Serverless = zero idle cost** — we only pay when users are active
-- **AI costs are plummeting** — embedding and inference costs drop ~50% annually
-- **Spend income, not capital** — infrastructure scales only when revenue scales
+- **No dilution** — we retain full ownership; every dollar of revenue compounds
 
 </v-clicks>
 
@@ -607,7 +609,7 @@ Unlimited students
 
 <br>
 
-**Revenue Model:** Recurring subscription (15% annual discount) + usage-based AI ($0.01/embedding) + professional services ($150/hr)
+**Revenue Model:** Atlas subscriptions (75-85% margin) + TerrAIn content projects (70-80% margin) + usage-based AI + professional services
 
 ---
 
@@ -619,8 +621,8 @@ Unlimited students
 | **Content/Week** | 10 articles | 25 pieces | At scale |
 | **Recommendation CTR** | 5-8% | Improving | Industry-leading |
 | **Conversion** | — | 2-3% free→paid | Optimized |
-| **API Latency (p95)** | < 500ms | < 500ms | < 500ms |
-| **Infra Cost** | $0 (credits) | Revenue-funded | < $0.50/user |
+| **Infra Cost** | $0 (credits) | Crowdfund + revenue | < $0.50/user |
+| **Revenue Source** | — | Atlas subs + TerrAIn | Both at healthy margin |
 
 ---
 
@@ -631,15 +633,15 @@ Unlimited students
 | Metric | Year 1 | Year 2 | Year 3 |
 |---|---|---|---|
 | Active Users | 2K | 10K | 50K+ |
-| MRR | $5K | $40K | $200K |
-| Annual Revenue | $30K | $350K | $1.8M |
-| Gross Margin | 70% | 75% | 85% |
-| CAC | ~$0 (organic) | $50 | $80 |
-| LTV | $500 | $900 | $1,200 |
+| Atlas MRR | $3K | $25K | $130K |
+| TerrAIn Project Revenue | $20K | $150K | $500K |
+| Crowdfunding | $10-25K | — | — |
+| Total Annual Revenue | $60K | $450K | $2.1M |
+| Blended Gross Margin | 75% | 78% | 83% |
 
 <br>
 
-**Bootstrapped Path:** Cloud credits cover months 1-3 → First revenue by month 4 → Cash-flow positive by month 8 → Profitable from day one of revenue
+**Path:** Cloud credits (Mo 1-3) → Crowdfund (Mo 3-4) → Atlas + TerrAIn revenue (Mo 4+) → Cash-flow positive by month 8
 
 ---
 layout: two-cols
@@ -692,6 +694,14 @@ layoutClass: gap-16
 <div class="grid grid-cols-3 gap-8 mt-8">
 <div>
 
+### Back Our Campaign
+- Crowdfunding launching soon
+- Early-backer lifetime pricing
+- Help validate demand
+
+</div>
+<div>
+
 ### For Early Customers
 - Free pilot access for 6 months
 - Direct input on product roadmap
@@ -701,17 +711,9 @@ layoutClass: gap-16
 <div>
 
 ### For Partners
-- Co-marketing opportunities
-- Integration development
+- Atlas integration partnerships
+- TerrAIn content projects
 - Revenue share on referrals
-
-</div>
-<div>
-
-### For Educators
-- Join our early adopter community
-- Shape the platform you'll use
-- Get free access while we build
 
 </div>
 </div>
