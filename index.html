@@ -244,7 +244,8 @@
         document.getElementById('logout-btn').addEventListener('click', logout);
         loginOverlay.style.display = 'none';
         slideDeck.style.display = 'block';
-        initReveal();
+        history.replaceState(null, '', window.location.pathname);
+        requestAnimationFrame(() => initReveal());
       } else {
         authContainer.innerHTML = `
           <div class="login-buttons">
