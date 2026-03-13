@@ -127,12 +127,11 @@ onMounted(async () => {
   
   // Initialize Reveal.js
   if (user.value) {
-    const Reveal = (await import('reveal.js')).default;
     const reveal = new Reveal('.reveal', {
       plugins: [
-        (await import('reveal.js/plugin/markdown/markdown.js')).default,
-        (await import('reveal.js/plugin/highlight/highlight.js')).default,
-        (await import('reveal.js/plugin/notes/notes.js')).default,
+        RevealMarkdown,
+        RevealHighlight,
+        RevealNotes,
       ],
     });
     
