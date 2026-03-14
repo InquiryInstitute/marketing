@@ -46,7 +46,7 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 |---------|-------|--------|----------------|
 | Membership | $49/mo | LIVE | Email conversion sequences |
 | iNQ Cards | $20/mo | DESIGN | Social (highly visual, shareable) |
-| Atlas Classic | $99 founding | PROTOTYPE | Crowdfunding + conventions |
+| Atlas Field Tablet | $99 founding | PROTOTYPE | Crowdfunding + conventions |
 | Encyclopaedia (print) | $9.99-49/vol | IN PRODUCTION | SEO + email |
 | Apocalypso book | $19.99 | LIVE | Paired with dashboard traffic |
 
@@ -115,7 +115,7 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 6. Welcome sequence over 10 days: introduces Children's Edition, Faculty conversations, how families use it
 7. Day 14 conversion email: "Unlock unlimited Faculty conversations for your whole family — $49/mo"
 8. Month 2: adds iNQ Cards ($20/mo) — kids love the illustrated cards with QR codes
-9. Month 3: pre-orders Atlas Classic ($99) as a dedicated learning device for the kids
+9. Month 3: pre-orders Atlas Field Tablet ($99) as a dedicated learning device for the kids
 10. Month 6: shares Castalia in her Facebook group: "This replaced three of our curriculum resources"
 
 ### Segment 2: Lifelong Learners
@@ -280,7 +280,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 | iNQ Card art | Blake/Mucha-style illustration, no text overlay | iNQ Cards pre-order page | Very high (visual appeal) |
 | Infographic | "What Darwin Actually Wrote About Adaptation" — 5 key points | Entry page | High |
 | Seasonal | "Summer Reading for Homeschoolers: 13 Free Entries" | Curated reading list | High in season |
-| Product | Atlas Classic photo with "A learning device, not a distraction device" | Atlas pre-order | Medium |
+| Product | Atlas Field Tablet photo with "A learning device, not a distraction device" | Atlas pre-order | Medium |
 | List pins | "10 Philosophy Topics Kids Can Actually Understand" | Children's Edition index | High |
 
 **Boards to create and maintain:**
@@ -480,7 +480,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 
 ### Channel 4: Crowdfunding
 
-**Atlas Classic Founding Cohort (Q2 2026)**
+**Atlas Field Tablet Founding Cohort (Q2 2026)**
 - Platform: Open Collective + castalia.institute pre-order page
 - Goal: 300 units at $99 = $29,700
 - Marketing cost: $0 (email list + organic social)
@@ -509,7 +509,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 | THSC or FPEA | Texas or Florida | Summer | $500-800 | 80 emails, 20 members |
 
 **Booth setup:**
-- Atlas Classic demo device (1 prototype)
+- Atlas Field Tablet demo device (1 prototype)
 - iNQ Cards sample packs (100 at ~$4 each = $400)
 - QR code → free AI Faculty conversation
 - Encyclopaedia printed excerpt booklets (50 at ~$3 each = $150)
@@ -812,7 +812,7 @@ Built the entire ecosystem — 7 products, 10,000 faculty, 13-volume encyclopaed
 ### Hardware
 | Product | Founding Price | MSRP |
 |---------|----------------|------|
-| Atlas Classic | $99 | $149 |
+| Atlas Field Tablet | $99 | $149 |
 | Atlas DS / TriCorder / Sense | At cost | TBD |
 | Inquiry Appliance | — | $500 |
 | TerrAIn Home Kit | — | $599–899 |

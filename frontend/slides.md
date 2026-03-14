@@ -521,7 +521,7 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 <div class="grid grid-cols-2 gap-6 mt-4 text-sm">
 <div>
 
-### Atlas Classic — Founding Cohort (Q2 2026)
+### Atlas Field Tablet — Founding Cohort (Q2 2026)
 
 **Platform:** Open Collective + custom pre-order page
 <br>**Goal:** 300 units at $99 = $29,700
@@ -579,7 +579,7 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 | THSC (Texas) | Jul | 12K | $500-800 |
 | Midwest Homeschool Convention | Apr | 5K | $300 |
 
-**What we bring:** Atlas Classic demo, iNQ Cards sample packs, Encyclopaedia printed excerpts, QR → free AI Faculty conversation
+**What we bring:** Atlas Field Tablet demo, iNQ Cards sample packs, Encyclopaedia printed excerpts, QR → free AI Faculty conversation
 
 **Per-event goal:** 50 email signups, 10 memberships, 20 Atlas pre-orders
 
@@ -777,7 +777,7 @@ Q4 2026 (Months 10-12): SCALE PREP
 | **Encyclopaedia** | SEO, Social, Email | $0 | "Read what Darwin actually wrote about adaptation" | Free web access |
 | **AI Faculty** | Social demos, Podcast | $0 | "Ask Aristotle anything — and get his answer" | Try 5 free chats |
 | **Membership** | Email sequence, Retargeting | $0-29/mo | "Unlock unlimited conversations + courses" | Start free trial |
-| **Atlas Classic** | Crowdfunding, Conventions | $500 | "A learning device, not a distraction device" | Pre-order $99 |
+| **Atlas Field Tablet** | Crowdfunding, Conventions | $500 | "A learning device, not a distraction device" | Pre-order $99 |
 | **iNQ Cards** | Social (visual), Unboxing | $100 | "Knowledge you can hold" | Subscribe $20/mo |
 | **Apocalypso** | News hooks, Twitter/X | $0 | "Track the risks that matter" | Free dashboard |
 | **TerrAIn** | Kickstarter, NVIDIA GTC | Fees only | "Robots that learn to dig — so do your kids" | Back on Kickstarter |
