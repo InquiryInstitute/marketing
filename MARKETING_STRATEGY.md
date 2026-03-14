@@ -42,6 +42,7 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 | Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Risk updates drive topical social sharing |
 | Singh | singh.castalia.institute | LIVE | Lecture engine. Khan Academy + MIT OCW delivered by AI Faculty. Users can interrupt, ask questions, debate. Turns passive video into interactive dialogue |
 | Symposia | symposia.castalia.institute | LIVE | Spectacle engine. Four social formats where AI Faculty interact with each other — Symposia (6+1 drinking party), Faculty Club (lunch chats), Salons (dozen+ faculty), Debates. Pupils may observe or participate. Every session is unique, shareable content |
+| Map of Inquiry | maps.castalia.institute | IN DEV | Retention engine. Hex-grid curriculum map — cities are activities, regions are disciplines, paths are prerequisites. Students unlock territory by completing work. Gamified progression that visualizes the entire learning journey |
 | AI Faculty | castalia.institute | LIVE | Demo engine. 2-minute conversation sells better than any ad |
 | The Inquirer | inquirer.inquiry.institute | LIVE | Authority. Quarterly journal adds publishing credibility |
 
@@ -123,6 +124,13 @@ Faculty Club lunch → Darwin and Wallace chat casually about beetles
 - Faculty Club lunches are low-effort to generate and endlessly varied — Darwin and Wallace on beetles, Plato and Aristotle on politics, Austen and Brontë on men
 - Salons create cross-pollination content — a dozen thinkers from different traditions addressing the same question produces unexpected connections
 - Debates produce shareable moments — "Who won: Marx or Adam Smith on inequality?"
+
+**Map of Inquiry:**
+- Hex-grid curriculum map where cities = activities, regions = disciplines, paths = prerequisites
+- Progressive reveal: completing an activity unlocks dependent cities — gamified learning journey
+- Visual "I've explored 40% of the map" progress is inherently shareable (screenshot → social)
+- Connects everything: each city links to an Encyclopaedia entry, a Bibliotech text, a Singh lecture, or a Symposium
+- Retention mechanic: the map gives students a reason to come back and keep exploring
 
 ---
 
