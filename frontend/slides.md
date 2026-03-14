@@ -2,8 +2,7 @@
 theme: seriph
 title: Castalia Institute
 info: |
-  Castalia Institute — Where Wisdom Meets Intelligence
-  The AI-Powered Learning Platform for the Modern Era
+  Castalia Institute — Preserve and Extend the Great Conversations
 class: text-center
 drawings:
   persist: false
@@ -13,47 +12,42 @@ mdc: true
 
 # Castalia Institute
 
-*Where Wisdom Meets Intelligence*
+*Preserve and Extend the Great Conversations*
 
-The AI-Powered Learning Platform for the Modern Era
+Publications &middot; Hardware &middot; Robotics &middot; AI Faculty &middot; Physical Artifacts
 
 <div class="abs-bl mx-14 my-12 flex gap-2">
-  <div class="text-sm opacity-50">Castalia Institute &middot; Confidential</div>
+  <div class="text-sm opacity-50">Castalia Institute</div>
 </div>
 
 ---
-layout: section
----
 
-# The Problem We Solve
-
----
-
-# The Challenge
+# The Problem
 
 <v-clicks>
 
-- **Content overload** — 10x more information, same attention spans
-- **Generic AI** — No institutional expertise or context
-- **One-size-fits-all** — No personalization at scale
-- **Low engagement** — 95% of content never gets viewed
-- **Quality vs. quantity** — Can't scale without compromising standards
+- A homeschool parent in Texas can't find a single comprehensive curriculum that's engaging, rigorous, and affordable
+- A retired engineer in London wants structured intellectual growth — but universities won't have him and MOOCs feel hollow
+- An autodidact can study for years and have nothing to show for it — no credential, no community, no progression
+- Learning is screen-locked — no devices purpose-built for education, no physical artifacts, no embodied experience
+- Every product is siloed — books don't connect to courses, courses don't connect to hardware, hardware doesn't connect to credentials
 
 </v-clicks>
 
 ---
 
-# Our Solution
+# What Exists Today
 
-**An AI-native learning platform — bootstrapped and capital-efficient:**
+**Built solo in 12 months, AI-augmented, $3K in cloud credits:**
 
 <v-clicks>
 
-- Publishes high-quality content at **5x velocity**
-- Learns from user behavior to **personalize recommendations**
-- Combines human expertise with **AI assistance**
-- Launches on **$3K in cloud credits** — funded by crowdfunding + product revenue
-- **Atlas & TerrAIn** generate healthy margins from day one
+- **The Encyclopaedia** — 13 volumes, 483+ entries, 150+ author voices, live at [cyc.castalia.institute](https://cyc.castalia.institute)
+- **Apocalypso** — civilizational risk dashboard + 13-chapter book, live at [apocalypso.castalia.institute](https://apocalypso.castalia.institute)
+- **Atlas** — PWA + hardware prototype at [atlas.castalia.institute](https://atlas.castalia.institute)
+- **TerrAIn** — robotics platform design at [terrain.castalia.institute](https://terrain.castalia.institute)
+- **10,000 AI Faculty** — live Socratic dialogue, courses, TTS, Supabase auth
+- **Programs:** NVIDIA Inception &middot; AWS Activate ($1K) &middot; Google Cloud for Startups ($2K)
 
 </v-clicks>
 
@@ -64,565 +58,284 @@ layoutClass: gap-16
 
 # The Castalia Ecosystem
 
-Five integrated products forming a self-improving learning platform.
+Seven products anchored by a flagship encyclopaedia.
 
 ::right::
 
 <v-clicks>
 
-**Atlas** — AI-native learning platform
-<br>Personalized recommendations, multi-domain content, real-time engagement tracking
+**The Encyclopaedia** — 13-volume scholarly work
+<br>483 entries by 150+ historical voices, adult & children's editions · *LIVE*
 
-**TerrAIn** — AI-assisted content creation
-<br>Claude 3.5 Sonnet drafting, RAG for grounding, 5x content velocity
+**Apocalypso** — Observatory of Civilizational Risk
+<br>Live dashboard + 13-chapter book by historical voices · *LIVE*
 
-**iNQ Publications** — AI-enhanced publishing
-<br>Automated embeddings, full-text search, versioning & audit trail
+**Atlas** — Purpose-built compute devices
+<br>Classic ($99) · DS · TriCorder · Sense · Inquiry Appliance ($500) · *PROTOTYPE*
 
-**iNQ Cards** — Personalized learning cards
-<br>Behavioral recommendations, spaced repetition, mobile-first
+**TerrAIn** — Open robotics platform
+<br>RC construction fleet + raised bed + Jetson brain · *DESIGN*
 
-**iNQ Credentials** — Micro-credential courses
-<br>Stackable certificates, skill verification, employer-recognized badges
+**iNQ Cards** — Physical learning card subscription
+<br>$20/mo illustrated packs, premium NFC & bamboo editions · *DESIGN*
+
+**Magisteria** — Micro-credential courses & scholarly ranks
+<br>Apprentice → Adept → Magister → Fellow → Custodian · *DESIGN*
 
 </v-clicks>
 
 ---
-
-# Core Capabilities
-
-| Capability | Description | Impact |
-|---|---|---|
-| AI-Assisted Publishing | Creators use AI to draft, research, refine | **50/wk** vs. 10 |
-| Two-Layer Recommendations | Rules + vector similarity | **5-8% CTR** |
-| Behavioral Learning | Real-time interaction tracking | Continuous improvement |
-| Multi-Domain Content | Articles, courses, credentials, events | Revenue diversification |
-| Micro-Credentials | Stackable certificates with skill verification | Completion & retention |
-| Quality Governance | Human review gates for AI content | Institutional standards |
-
----
-
-# Technology Stack
-
-**Cloud-Native, AI-Driven Architecture**
-
-```
-Client Layer
-    ↓
-API Gateway + Cognito Auth
-    ↓
-Core Services (Lambda — serverless, pay-per-use)
-    ├── Content Service
-    ├── Search Service
-    ├── Recommendation Service
-    ├── Event Service
-    └── Profile Service
-    ↓
-Data Layer
-    ├── DynamoDB (primary store)
-    ├── OpenSearch (search + vectors)
-    ├── S3 (assets + archive)
-    └── Redis (caching)
-    ↓
-AI Services
-    ├── Bedrock Titan Embeddings ($1K AWS credits)
-    └── Google Cloud AI ($2K GCP credits)
-```
-
----
-layout: section
----
-
-# Roadmap
-
----
 layout: two-cols
 layoutClass: gap-16
 ---
 
-# Phase 1: Core
-**Months 1-3 — MVP: Prove Value**
+# The Encyclopaedia
 
-**Deliverables:**
-- Article publishing with metadata
-- Behavioral event tracking
-- Two-layer recommendation engine
-- Full-text search
-- User auth and profiles
+A thirteen-volume encyclopaedia written in the voices of history's greatest thinkers — from Aristotle to Ada Lovelace.
 
 ::right::
-
-<br>
-<br>
-
-**Success Metrics:**
-
-| Metric | Target |
-|---|---|
-| Active Users | 1,000 |
-| Recommendation CTR | 5-8% |
-| Articles/Week | 10 |
-
-<br>
-
-**Cost:** Covered by cloud credits
-<br>$1K AWS + $2K GCP = **$3K runway, $0 out-of-pocket**
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Phase 2: Growth
-**Months 4-6 — Revenue-Funded Scaling**
-
-**Deliverables:**
-- AI-assisted content creation
-- Multi-domain content
-- Email distribution campaigns
-- Content versioning & audit trail
-- Analytics dashboard
-
-::right::
-
-<br>
-<br>
-
-**Success Metrics:**
-
-| Metric | Target |
-|---|---|
-| Active Users | 5,000 |
-| Conversion Rate | 2-3% |
-| Content/Week | 25 |
-
-<br>
-
-**Cost:** Crowdfunding + early Atlas/TerrAIn revenue
-<br>Crowdfunding validates demand; product margins fund growth
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Phase 3: Intelligence
-**Months 7-12 — Reinvest & Lead**
-
-**Deliverables:**
-- Graph-based recommendations
-- Learned ranking models
-- Multi-agent orchestration
-- Faculty persona agents
-- Advanced personalization
-
-::right::
-
-<br>
-<br>
-
-**Success Metrics:**
-
-| Metric | Target |
-|---|---|
-| Active Users | 25,000+ |
-| Scale | Target load |
-| CTR & Conversion | Industry-leading |
-
-<br>
-
-**Cost:** Reinvest revenue into infrastructure
-<br>Serverless architecture keeps costs proportional to usage
-
----
-
-# Funding Strategy
-
-**Cloud Credits → Crowdfunding → Product Revenue**
 
 <v-clicks>
 
-- **$3K cloud credits** — $1K AWS + $2K GCP covers MVP infrastructure at zero cost
-- **Crowdfunding campaign** — validate demand, build community, and fund Phase 2
-- **Atlas subscriptions** — recurring SaaS revenue with **75-85% gross margins**
-- **TerrAIn projects** — AI content services for institutions with **70-80% margins**
-- **Serverless = zero idle cost** — we only pay when users are active
-- **No dilution** — we retain full ownership; every dollar of revenue compounds
+**483 entries across 13 volumes**
+<br>Vol 0: Continuity · I: Mind · II: Language & Meaning · III: Nature · IV: Measure · V: Society · VI: Art & Form · VII–IX: Knowledge, History, Ethics · X–XII: Machines, Futures, Limits
+
+**150+ public-domain authors**
+<br>William James on Attention, Darwin on Adaptation, Kant on Duty, Borges on Labyrinths — each voice reconstructed by AI, reviewed by the founder
+
+**Two parallel editions**
+<br>Adult (scholarly, with marginalia) and Children's (ages 9+, same depth, accessible language)
+
+**Four formats:** Free web · $9.99 digital · $29-49 hardbound · Institutional license
+
+**Live at [cyc.castalia.institute](https://cyc.castalia.institute)**
 
 </v-clicks>
 
 ---
-layout: section
+layout: two-cols
+layoutClass: gap-16
 ---
 
-# Market & Competition
+# Apocalypso
+
+A live observatory and a book — tracking 13 existential risks as signal, curve, narrative, and ledger.
+
+::right::
+
+<v-clicks>
+
+**The Dashboard** — Free, public, live
+<br>Stock-market-style UI: APOC ticker tape, risk radar, gauges, world choropleth map · Nightly data ingest from OWID, NOAA, WHO, GDELT, 16 RSS feeds
+
+**The Book** — *A Field Guide to the Ends of the World*
+<br>13 chapters by historical voices: Oppenheimer (Nuclear), Turing (AI), Darwin (Biosphere), Keynes (Market), Arendt (Epistemic), Humboldt (Climate) · $19.99 print
+
+**13 Risk Modules**
+<br>Nuclear · Bio · AI · Cyber · Infrastructure · Market · State Collapse · Epistemic · Climate · Biosphere · Solar · Impact · Prophetic
+
+</v-clicks>
+
+---
+
+# Hardware & Robotics
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="border rounded-lg p-4 text-sm">
+
+### Atlas — Compute Devices
+
+**Classic** — 7" tablet, $99 founding / $149 MSRP
+<br>IPS landscape, kickstand, kiosk mode for children
+
+**DS** — Dual-screen clamshell
+<br>7" IPS + 4.2" E-ink, folds like a book
+
+**TriCorder** — Handheld field device
+<br>3.5" IPS, d-pad, camera, terrAIn controller
+
+**Inquiry Appliance** — Local AI node, $500
+<br>Serves content to Atlas fleet, runs local inference
+
+*Status: Prototype. Crowdfunding Q2.*
+
+</div>
+<div class="border rounded-lg p-4 text-sm">
+
+### TerrAIn — Robotics Platform
+
+**The Fleet** — Huina 1:14 scale RC vehicles
+<br>Excavator, dump truck, bulldozer, loader ($55-85 each)
+
+**The Bed** — 4×8 ft raised bed, real soil/sand/gravel
+
+**The Brain** — Jetson Orin Nano for autonomous missions
+
+**Home** ($599-899): one vehicle, base station, bed
+<br>**Research** ($2K-4K): full fleet, Jetson, perception gantry
+
+Controlled by Atlas DS handheld.
+
+*Status: Design. Crowdfunding Q3.*
+
+</div>
+</div>
+
+---
+
+# iNQ Cards & Magisteria
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="border rounded-lg p-4">
+
+### iNQ Cards — Physical Subscription
+
+**$20/mo** — 12 illustrated cards per pack
+<br>Blake & Mucha art · QR code → AI faculty conversation
+<br>COGS: ~$3-5/pack incl. fulfillment · **~80% margin**
+
+**Premium editions (one-time)**
+<br>NFC decks ($40-60) · Bamboo ($40-80) · Metal Magisteria medals
+
+**Special Series**
+<br>Faculty Cards (Encyclopaedia authors) · Expedition Cards · Epoch Cards
+
+*Status: Design phase*
+
+</div>
+<div class="border rounded-lg p-4">
+
+### Magisteria — Scholarly Credentials
+
+Five ranks of scholarly progression:
+
+1. **Apprentice** — Complete introductory course
+2. **Adept** — Pass subject assessment
+3. **Magister** — Defend thesis via Socratic viva
+4. **Fellow** — Contribute to the Encyclopaedia
+5. **Custodian** — Steward a domain of knowledge
+
+Physical etched-brass medals at each rank. W3C Open Badges.
+<br>Core program ~$1,200 · Specializations $400-600
+
+*Status: Design phase*
+
+</div>
+</div>
+
+---
+
+# Content Flywheel
+
+**The Encyclopaedia is the engine — every product feeds from it.**
+
+```
+The Encyclopaedia (483 entries, 150+ author voices)
+    │
+    ├── Atlas ← Content preloaded on devices, Children's Edition built in
+    │
+    ├── iNQ Cards ← Faculty Cards feature Encyclopaedia authors
+    │              ← Scan a Darwin card → read his entry → chat with his voice
+    │
+    ├── Magisteria ← Courses built around Encyclopaedia volumes
+    │
+    ├── Apocalypso ← Dashboard drives organic traffic (live risk data)
+    │               ← Book shares Faculty voice system with Encyclopaedia
+    │
+    ├── TerrAIn ← STEM missions tied to Encyclopaedia Machines/Measure volumes
+    │
+    └── SEO ← Every entry is a long-tail keyword page
+            ← "Darwin on Adaptation" ranks for organic search
+```
+
+---
+
+# Market Opportunity
+
+**Bottom-up sizing — two primary segments:**
+
+<v-clicks>
+
+**Homeschool families** — 3.7M US students (~2M families)
+<br>~15% of families spend $500+/yr on curriculum = **300K addressable families**
+<br>At $49/mo membership = $176M SAM
+
+**Lifelong learners** — 72M US adults express interest in continuing education
+<br>~0.5% would pay for a premium, physical-first learning platform = **360K addressable**
+<br>At $49/mo membership = $212M SAM
+
+**Combined serviceable market: ~$400M** (membership only — excludes hardware, cards, credentials, publications, and institutional)
+
+**Castalia's wedge:** The Encyclopaedia as a free content magnet → organic conversion → memberships, hardware, and cards
+
+</v-clicks>
 
 ---
 
 # Competitive Landscape
 
-| Factor | Canvas | Blackboard | Moodle | **Castalia** |
-|---|---|---|---|---|
-| **Pricing** | $2,500+/campus | $10,000+/campus | $1,200+/yr | **$499+/yr** |
-| **AI Assistance** | Limited | None | None | **Claude 3.5** |
-| **Personalization** | Basic | Limited | Basic | **Two-layer + graph** |
-| **Content Velocity** | Manual | Manual | Manual | **5x faster** |
-| **Cost Efficiency** | High | High | Medium | **< $0.50/user/mo** |
+| Factor | Khan Academy | Brilliant | Great Courses | Kiwi Crate | **Castalia** |
+|---|---|---|---|---|---|
+| **Price** | Free | $24/mo | $20/mo | $24/mo | **Free–$49/mo** |
+| **Content** | Video lessons | Interactive problems | Filmed lectures | STEM kits | **13-vol Encyclopaedia** |
+| **AI** | Khanmigo | None | None | None | **10K faculty personas** |
+| **Hardware** | None | None | None | Activity kits | **Atlas devices + TerrAIn** |
+| **Physical** | None | None | None | Monthly kit | **iNQ Cards + medals** |
+| **Credentials** | Mastery points | None | None | None | **5-rank Magisteria** |
 
 <v-clicks>
 
-**Our Differentiators:** AI-native from day one, 5-20x lower cost, human review gates, multi-domain support, unified ecosystem
-
-</v-clicks>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Total Addressable Market
-
-**$12.4B TAM**
-
-::right::
-
-<v-clicks>
-
-**Academic Institutions — $5.2B**
-<br>2,800 universities, 13K K-12 districts, 450 bootcamps
-
-**Enterprise Learning — $4.8B**
-<br>Fortune 1000 ($2.5M avg budget), 250K mid-market companies
-
-**Professional Associations — $1.8B**
-<br>2,500 national orgs, 25K local chapters, CEU requirements
-
-**Independent Educators — $0.6B**
-<br>500K solo experts, 200K academic researchers
+**What we lack:** Khan's video library, Brilliant's interactive exercises, Great Courses' production quality.
+<br>**What no one else has:** A 13-volume published encyclopaedia, 10,000 historically accurate AI personas, purpose-built hardware, and a physical artifact subscription — all in one ecosystem.
 
 </v-clicks>
 
 ---
 
-# User Personas
+# Pricing & Revenue
 
-<div class="grid grid-cols-2 gap-8">
-<div>
+<div class="grid grid-cols-3 gap-3">
+<div class="border rounded-lg p-3 text-center text-sm">
 
-**Dr. Sarah Chen** — Associate Professor
-- 60+ hour weeks, needs AI co-pilot for lectures
-- Budget: $499/mo institutional, $49/mo personal
-- Value: 5x faster content creation via TerrAIn
+### Free Tier
+**$0**
 
-</div>
-<div>
-
-**Marcus Johnson** — LMS Administrator
-- 15K student university, $200K/yr budget
-- Needs modern interface with analytics
-- Value: Two-layer recommendations, behavioral dashboard
+Encyclopaedia (web)
+<br>Apocalypso dashboard
+<br>5 faculty conversations/day
 
 </div>
-<div>
+<div class="border-2 border-blue-500 rounded-lg p-3 text-center text-sm">
 
-**Elena Rodriguez** — Corporate Training Director
-- 5K employee firm, $500K/yr budget
-- Reduce onboarding time by 50%
-- Value: AI content updates, ROI analytics
-
-</div>
-<div>
-
-**Alex Kim** — Independent EdTech Consultant
-- 15-20 clients/year, $500/mo budget
-- Needs time-saving content tools
-- Value: AI assistant, 100% revenue share
-
-</div>
-</div>
-
----
-layout: section
----
-
-# Architecture & Implementation
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Four-Layer Recommendation Engine
-
-Progressive layers for increasingly intelligent personalization.
-
-::right::
-
-<v-clicks>
-
-**Layer 1: Rules-Based** (40% weight)
-<br>User preferences, trending content, recency scoring
-
-**Layer 2: Vector Similarity** (60% weight)
-<br>Bedrock Titan embeddings, K-NN search, semantic discovery
-
-**Layer 3: Graph-Based** (Phase 2)
-<br>Collaborative filtering, topic affinity networks
-
-**Layer 4: Learned Ranking** (Phase 3)
-<br>Amazon Personalize, multi-armed bandit, context-aware
-
-</v-clicks>
-
----
-
-# Core Infrastructure
-
-**Data Layer**
-- DynamoDB for content, profiles, events
-- OpenSearch Serverless for search + vector index
-- S3 for assets and event archive
-- Redis for recommendation and profile caching
-- Kinesis for event stream buffering
-
-**Performance Targets**
-
-| Metric | Target |
-|---|---|
-| API Latency (p95) | < 500ms |
-| Recommendation Latency | < 500ms cache miss |
-| Index Update Latency | < 5 seconds |
-| Cache Hit Rate | > 80% |
-
----
-
-# Content Pipeline
-
-```
-Creator submits content (title, description, body, topics)
-  ↓
-Content Service validates → Save to DynamoDB (state='draft')
-  ↓
-Upload assets to S3 → Generate embedding via Bedrock Titan
-  ↓
-Index in OpenSearch (full-text + vector) — within 5 seconds
-  ↓
-Creator reviews → Clicks "Publish" → Appears in feeds
-```
-
-<br>
-
-**Cost per Article:** DynamoDB $0.005 + S3 $0.01 + Embedding $0.001 + OpenSearch $0.002 = **$0.018 total**
-
----
-
-# Recommendation Flow
-
-```
-User visits page → Check Redis cache (GET reco:{userId})
-  ↓
-CACHE HIT (80%): Return cached, 5ms latency
-  ↓
-CACHE MISS (20%):
-  → Rules Layer (40%): favorites, trending, recent
-  → Vector Layer (60%): K-NN on user interaction embeddings
-  → Merge & deduplicate → Diversity constraint (max 40% single topic)
-  → Cache 5 min (SETEX reco:{userId} 300)
-  ↓
-Return top 10 recommendations with explanations
-```
-
-**Latency:** Cache hit 5ms | Cache miss ~450ms
-
----
-
-# Behavioral Tracking
-
-```
-Client: User action → SDK captures event → Buffer in localStorage
-  → Batch to /api/events (every 30s or 10 events)
-
-Server: API Gateway validates → Kinesis stream → Lambda consumer
-  → DynamoDB (user-events) + behavior metrics update
-  → Total: 200ms acknowledgment
-```
-
-**Event types:** `view` (engagement), `click` (conversion), `search` (intent), `purchase` (revenue)
-
----
-
-# AI Editorial Assistant
-
-```
-Creator submits topic + outline
-  → Generate query embedding → RAG: top-5 similar articles
-  → Construct prompt with institutional context
-  → Bedrock Claude 3.5 Sonnet ($0.03/draft)
-  → Return draft with citations (flagged AI-assisted)
-  → Human review required before publication
-```
-
-**Quality Controls:** Plagiarism check (>80% = reject), readability scoring, style guide compliance, human review gate
-
----
-layout: section
----
-
-# Go-to-Market Strategy
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# GTM Phase 1
-**Build Awareness — Months 1-3**
-
-**Content Marketing (organic)**
-- 2-3 articles/week on AI in education
-- Guest posts on EdSurge, Inside Higher Ed
-- LinkedIn thought leadership
-- Target: 100+ leads/month
-
-::right::
-
-<br>
-
-**Community Building (zero-cost)**
-- Discord for early adopters
-- Monthly webinars (Zoom free tier)
-- EdTech subreddits and forums
-- Target: 200+ members
-
-**Direct Outreach (founder-led)**
-- 20 pilot institutions (personal network)
-- Free 90-day trials
-- Target: 3-5 pilot customers
-
-**Budget:** $0 — founder time + organic channels
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# GTM Phase 2
-**Drive Conversion — Months 4-6**
-
-**Product-Led Growth**
-- Freemium tier for individual educators
-- Self-serve onboarding
-- In-app upsell to institutional plans
-- Target: 500+ trials/month
-
-::right::
-
-<br>
-
-**Account-Based Marketing**
-- Target 50 enterprise accounts
-- Custom demos, ROI calculators
-- Target: 5 enterprise trials
-
-**Partnerships**
-- Canvas/Blackboard integrations
-- AI tool vendor co-marketing
-- Target: 2-3 strategic partnerships
-
-**Budget:** Reinvest 30% of revenue into growth
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# GTM Phase 3
-**Scale with Revenue — Months 7-12**
-
-**Brand Building**
-- Virtual AI in Education Summit
-- Research reports (AI-assisted)
-- Certification program
-- Target: 500+ attendees
-
-::right::
-
-<br>
-
-**Performance Marketing**
-- Paid search on high-intent keywords
-- LinkedIn ads (small budget tests)
-- Retargeting free trial users
-- Target: 2,000+ trials/month
-
-**Referral Program**
-- Institutional referral bonuses
-- Student ambassadors
-- Target: 30% referral-driven
-
-**Budget:** Revenue-funded — reinvest 40% of MRR
-
----
-layout: section
----
-
-# Business Model
-
----
-
-# Pricing Strategy
-
-<div class="grid grid-cols-3 gap-8">
-<div class="border rounded-lg p-6 text-center">
-
-### Individual
+### Membership
 **$49/month**
 
-AI content assistant
-<br>Personal content library
-<br>Basic analytics
+Unlimited conversations
+<br>Courses & Magisteria
+<br>Sam (SAMWISE) companion
 
 </div>
-<div class="border-2 border-blue-500 rounded-lg p-6 text-center">
+<div class="border rounded-lg p-3 text-center text-sm">
 
-### Small Institution
+### Institution
 **$499/month**
 
-Up to 500 students
-<br>Multi-domain content
-<br>Micro-credential courses
-<br>Priority support
-
-</div>
-<div class="border rounded-lg p-6 text-center">
-
-### Enterprise
-**$2,500-$10K/mo**
-
-Unlimited students
-<br>Custom integrations
-<br>White-label credentials
-<br>SLA guarantee
+50 seats + Encyclopaedia
+<br>Inquiry Appliance license
+<br>White-label Magisteria
 
 </div>
 </div>
 
 <br>
 
-**Revenue Model:** Atlas subscriptions (75-85% margin) + TerrAIn content projects (70-80% margin) + usage-based AI + professional services
-
----
-
-# Key Metrics & Success Criteria
-
-| | Phase 1 (Mo 1-3) | Phase 2 (Mo 4-6) | Phase 3 (Mo 7-12) |
+| Revenue Engine | Unit Price | COGS | Gross Margin |
 |---|---|---|---|
-| **Active Users** | 1,000 | 5,000 | 25,000+ |
-| **Content/Week** | 10 articles | 25 pieces | At scale |
-| **Recommendation CTR** | 5-8% | Improving | Industry-leading |
-| **Conversion** | — | 2-3% free→paid | Optimized |
-| **Infra Cost** | $0 (credits) | Crowdfund + revenue | < $0.50/user |
-| **Revenue Source** | — | Atlas subs + TerrAIn | Both at healthy margin |
+| Memberships | $49/mo | ~$5 compute | ~90% |
+| iNQ Cards | $20/mo | ~$3-5/pack | ~75-85% |
+| Atlas Classic | $99-149 | ~$30/unit | ~70% |
+| Inquiry Appliance | $500 | ~$400 | ~20% |
+| TerrAIn Kits | $599-4,000 | $250-1,150 | 50-60% |
 
 ---
 
@@ -630,90 +343,74 @@ Unlimited students
 
 **3-Year Bootstrapped Outlook**
 
-| Metric | Year 1 | Year 2 | Year 3 |
+|| Year 1 | Year 2 | Year 3 |
 |---|---|---|---|
-| Active Users | 2K | 10K | 50K+ |
-| Atlas MRR | $3K | $25K | $130K |
-| TerrAIn Project Revenue | $20K | $150K | $500K |
-| Crowdfunding | $10-25K | — | — |
-| Total Annual Revenue | $60K | $450K | $2.1M |
-| Blended Gross Margin | 75% | 78% | 83% |
+| Encyclopaedia Readers (monthly) | 5K | 25K | 100K |
+| Paid Members (end of year) | 200 | 1,500 | 5,000 |
+| Atlas Devices Shipped | 300 | 2,000 | 6,000 |
+| iNQ Card Subscribers (end of year) | 100 | 800 | 3,000 |
+| **Membership Revenue** | $50K | $440K | $1.8M |
+| **iNQ Card Revenue** | $12K | $130K | $500K |
+| **Hardware Revenue** | $37K | $280K | $900K |
+| **Publications + Crowdfunding** | $15K | $60K | $150K |
+| **Total Revenue** | **$114K** | **$910K** | **$3.4M** |
 
 <br>
 
-**Path:** Cloud credits (Mo 1-3) → Crowdfund (Mo 3-4) → Atlas + TerrAIn revenue (Mo 4+) → Cash-flow positive by month 8
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Risk Analysis
-
-**Technical Risks**
-- AI Hallucinations → Human review gates, citation requirements
-- Embedding Quality → Monitoring, model versioning, fallbacks
-- Cloud Costs → $3K credits buffer, serverless pay-per-use, hard budget alerts
-
-::right::
-
-<br>
-<br>
-
-**Market Risks**
-- Slow Adoption → Free tier, pilots, onboarding
-- Competition → AI-native differentiators
-- Pricing Sensitivity → Tiered pricing, ROI calculator
-
-**Operational Risks**
-- Data Privacy → GDPR, encryption, audit trails
-- Downtime → Multi-AZ, monitoring, alerting
-- Talent → Advisory board, remote-first, equity
+**Math:** Members ramp linearly (avg ~85 active/mo in Y1 × $49). iNQ launches month 3 (avg ~50 active × $20 × 10mo). Atlas founding cohort = 300 × $99. 5% monthly membership churn assumed. No paid marketing until Y2.
 
 ---
 
-# Team & Vision
+# Founder & Traction
 
-**Core Competencies:** AI/ML engineering, full-stack TypeScript/AWS, edtech domain expertise, growth marketing
+**Daniel McShan, PhD** — Sole Founder / Custodian
+<br>PhD Computational Biosciences (CU Anschutz) · 25+ years aerospace: NASA Orion, Mars Phoenix, Stardust · CTO Formul8.ai · VP Eng AVS · 5 publications, 1 patent
 
-**Advisory Board:**
-- Former LMS CTO (15 years at Blackboard)
-- Education research PhD (Stanford GSE)
-- EdTech VC partner (ex-Canvas board)
+**Built solo in 12 months** using AI-augmented development (Claude, Cursor, GPT-4)
 
-**Traction:** Beta testing with 3 universities | 500+ waitlist signups | 10+ enterprise LOIs
+**What exists today:**
+- 13-volume Encyclopaedia live at [cyc.castalia.institute](https://cyc.castalia.institute) (483+ entries, 150+ author voices)
+- Apocalypso dashboard + book at [apocalypso.castalia.institute](https://apocalypso.castalia.institute)
+- Atlas prototype + PWA at [atlas.castalia.institute](https://atlas.castalia.institute)
+- TerrAIn design at [terrain.castalia.institute](https://terrain.castalia.institute)
+- 10,000+ AI Faculty, 1 complete course, 7+ learning experiences
+- The Inquirer — 4 issues published (quarterly AI-faculty journal)
 
-<br>
-
-> **Vision:** By 2030, every educator has an AI co-pilot, every learner receives personalized education, and quality education is accessible to all.
+**Seeking:** Content Lead (Humanities PhD) · Community Lead (EdTech growth) · Hardware Engineer
 
 ---
 
-# Call to Action
+# What We're Looking For
 
-<div class="grid grid-cols-3 gap-8 mt-8">
+<div class="grid grid-cols-2 gap-8 mt-8">
 <div>
 
-### Back Our Campaign
-- Crowdfunding launching soon
-- Early-backer lifetime pricing
-- Help validate demand
+### Back the Campaign
+- Pre-order **Atlas Classic** — $99 founding price (300 units)
+- Pre-order the **Genesis Deck** — first iNQ Cards
+- Back the Encyclopaedia — hardbound volumes at cost
+- Open Collective: [opencollective.com/castalia](https://opencollective.com/castalia)
+
+### Start Free Today
+- Read the **Encyclopaedia** at [cyc.castalia.institute](https://cyc.castalia.institute)
+- Explore **Apocalypso** at [apocalypso.castalia.institute](https://apocalypso.castalia.institute)
+- Talk to any of 10,000 AI Faculty at [castalia.institute](https://castalia.institute)
 
 </div>
 <div>
 
-### For Early Customers
-- Free pilot access for 6 months
-- Direct input on product roadmap
-- Founding customer pricing locked in
+### For Partners & Advisors
+- Encyclopaedia licensing for libraries & universities
+- Atlas device bulk orders for schools
+- TerrAIn Research kits for STEM labs
+- White-label Magisteria programs
 
-</div>
-<div>
+### We're Hiring
+- Content Lead — Humanities PhD, editorial experience
+- Community Lead — EdTech growth, homeschool networks
+- Hardware Engineer — embedded systems, Jetson/ESP32
 
-### For Partners
-- Atlas integration partnerships
-- TerrAIn content projects
-- Revenue share on referrals
+**Contact:** custodian@castalia.institute
 
 </div>
 </div>
@@ -725,12 +422,12 @@ class: text-center
 
 # Thank You
 
-**Castalia Institute** — *Where Wisdom Meets Intelligence*
+**Castalia Institute** — *Preserve and Extend the Great Conversations*
 
 <br>
 
-Atlas &middot; TerrAIn &middot; iNQ Publications &middot; iNQ Cards &middot; iNQ Credentials
+The Encyclopaedia &middot; Apocalypso &middot; Atlas &middot; TerrAIn &middot; iNQ Cards &middot; Magisteria
 
 <br>
 
-Questions?
+[castalia.institute](https://castalia.institute) &middot; [cyc.castalia.institute](https://cyc.castalia.institute) &middot; [apocalypso.castalia.institute](https://apocalypso.castalia.institute)
