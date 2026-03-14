@@ -72,39 +72,119 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 ---
 
-# Who We're Marketing To
+# Target Demographics: Homeschool Families
 
-<div class="grid grid-cols-2 gap-8 mt-4 text-sm">
-<div>
+<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
+<div class="border rounded-lg p-3">
 
-### Segment 1: Homeschool Families
-**Size:** 3.7M US students (~2M families)
-<br>**Addressable:** ~300K families spending $500+/yr on curriculum
-<br>**Where they are:**
-- Facebook groups (Well-Trained Mind, Classical Conversations)
-- Homeschool co-ops & conventions
-- Curriculum review blogs (Cathy Duffy, HSLDA)
-- Reddit r/homeschool (82K members)
-
-**What they want:** Rigorous, engaging, affordable curriculum that adapts to multiple ages and learning styles
-
-**Entry product:** Encyclopaedia (free) → Membership ($49/mo) → Atlas ($99)
+### Who She Is
+**Primary buyer:** Mother, 30–45
+<br>**HHI:** $75K–150K
+<br>**Education:** College-educated (often STEM or humanities BA)
+<br>**Location:** Suburban/exurban; TX, FL, CA, NC, VA over-index
+<br>**Kids:** 2–4, ages 5–16
+<br>**Political lean:** Varies — religious right AND secular progressive; united by distrust of institutional school systems
 
 </div>
-<div>
+<div class="border rounded-lg p-3">
 
-### Segment 2: Lifelong Learners
-**Size:** 72M US adults interested in continuing education
-<br>**Addressable:** ~360K who'd pay for premium learning
-<br>**Where they are:**
-- Reddit r/autodidact, r/philosophy, r/AskHistorians
-- Twitter/X intellectual communities
-- Great Courses / Wondrium subscribers (dissatisfied)
-- Podcast listeners (Lex Fridman, EconTalk, Philosophize This!)
+### How She Thinks
+**Philosophy:** Classical education, Charlotte Mason, eclectic, or "unschool with structure"
+<br>**Pain:** Juggles 5–10 separate resources; nothing is comprehensive
+<br>**Buying triggers:** Curriculum reviews from trusted peers, convention demos, "my friend uses it" referrals
+<br>**Price tolerance:** $500–2,000/yr on curriculum; will pay more if it replaces multiple tools
+<br>**Skepticism:** High toward Big Tech, AI hype, and secular-only content
 
-**What they want:** Structured intellectual growth, not just YouTube rabbit holes. Proof of progress.
+</div>
+<div class="border rounded-lg p-3">
 
-**Entry product:** Encyclopaedia (free) → AI Faculty → Membership ($49/mo)
+### Where She Spends Time
+**Facebook** (daily): Well-Trained Mind (20K), Classical Conversations (100K+), Charlotte Mason groups, state-specific HS groups
+<br>**Pinterest** (weekly): Curriculum planning, lesson ideas, "homeschool organization"
+<br>**Instagram** (daily): Homeschool lifestyle accounts
+<br>**YouTube** (weekly): Curriculum reviews, "day in the life" vlogs
+<br>**Podcasts:** Read-Aloud Revival, Brave Writer, The Homeschool Sisters
+<br>**In-person:** Co-ops, conventions (THSC, FPEA, GHC)
+
+</div>
+</div>
+
+**Market size:** 3.7M US students (~2M families) · **Addressable:** ~300K families spending $500+/yr · **SAM:** $176M at $49/mo
+
+---
+
+# Target Demographics: Lifelong Learners & Autodidacts
+
+<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
+<div class="border rounded-lg p-3">
+
+### Who He Is
+**Primary buyer:** Male 45–75 (female 35–65 secondary)
+<br>**HHI:** $80K–200K
+<br>**Education:** College-educated; many with grad degrees
+<br>**Location:** Urban/suburban; US, UK, Canada, Australia
+<br>**Occupation:** Retired professional, semi-retired exec, mid-career knowledge worker
+<br>**Identity:** "Reader," "thinker," "I never stopped learning"
+
+</div>
+<div class="border rounded-lg p-3">
+
+### How He Thinks
+**Currently using:** Great Courses/Wondrium ($20/mo), Audible, MIT OCW, university extension programs, Substack newsletters
+<br>**Pain:** MOOCs feel hollow, YouTube lacks structure, universities won't admit him, no progression system, no peers
+<br>**Buying triggers:** Quality of content, intellectual prestige, physical artifacts (books, medals), community of serious thinkers
+<br>**Price tolerance:** $20–50/mo for learning; $200–500 for physical products; collects books
+<br>**Skepticism:** Anti-gimmick, anti-gamification; wants substance not badges
+
+</div>
+<div class="border rounded-lg p-3">
+
+### Where He Spends Time
+**Reddit** (daily): r/philosophy (18M), r/AskHistorians (2M), r/TrueFilm, r/autodidact (25K), r/slatestarcodex
+<br>**Twitter/X** (daily): Intellectual communities, longtermism, history, science accounts
+<br>**Substack** (weekly): Astral Codex Ten, The Intrinsic Perspective, Freddie deBoer
+<br>**YouTube:** Wondrium, 3Blue1Brown, exurb1a, Philosophy Tube
+<br>**Podcasts:** Lex Fridman, EconTalk, Philosophize This!, In Our Time (BBC), Sean Carroll's Mindscape
+<br>**Goodreads, LibraryThing**
+
+</div>
+</div>
+
+**Market size:** 72M US adults interested in continuing education · **Addressable:** ~360K who'd pay premium · **SAM:** $212M at $49/mo
+
+---
+
+# Secondary Segments
+
+<div class="grid grid-cols-3 gap-6 mt-4 text-sm">
+<div class="border rounded-lg p-4">
+
+### STEM Educators
+**Who:** Teachers 25–40, after-school program directors
+<br>**Where:** NVIDIA GTC, maker faires, ISTE, NSTA conferences, #STEMeducation on X, r/ScienceTeachers
+<br>**Pain:** Current robotics kits are expensive, toy-like, or require too much setup
+<br>**Entry:** TerrAIn demo video → Home Kit → Institutional inquiry
+<br>**Timeline:** Year 2 (after TerrAIn production)
+
+</div>
+<div class="border rounded-lg p-4">
+
+### Independent Learners (18–35)
+**Who:** College-age and early-career autodidacts, "gifted kids who got bored"
+<br>**Where:** X/Twitter, Discord servers, Reddit (r/slatestarcodex, r/SSC), TikTok #BookTok, Hacker News
+<br>**Pain:** Want proof of knowledge without a degree; want intellectual peers
+<br>**Entry:** Apocalypso news hook → Faculty conversations → Magisteria credentials
+<br>**Timeline:** Organic from Day 1
+
+</div>
+<div class="border rounded-lg p-4">
+
+### Institutional Buyers
+**Who:** Library directors, museum education leads, co-op coordinators, micro-school founders
+<br>**Where:** ALA Annual, state library conferences, homeschool co-op networks, LinkedIn
+<br>**Pain:** Need affordable, high-quality digital resources with offline capability
+<br>**Entry:** Encyclopaedia access → Inquiry Appliance pilot → 50-seat institutional tier ($499/mo)
+<br>**Timeline:** Pipeline Phase 2, revenue Phase 3
 
 </div>
 </div>
@@ -203,53 +283,200 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 ---
 
-# Channel 2: Community & Organic Social
+# Social Media Playbook: Facebook & Pinterest
 
-<div class="grid grid-cols-2 gap-6 mt-4 text-sm">
+<div class="grid grid-cols-2 gap-6 mt-4 text-xs">
 <div>
 
-### Homeschool Community (Primary)
+### Facebook — Primary for Homeschool Segment
+**Time:** 5 hr/week · **Cost:** $0 · **Goal:** 500 referral visits/mo by M6
 
-**Facebook Groups** (Cost: $0, Time: 5 hr/week)
-- Well-Trained Mind Forums — 20K+ members
-- Classical Conversations groups — 100K+ members
-- Homeschool curriculum swap/review groups
-- **Approach:** Provide value first. Share relevant Encyclopaedia entries when parents ask about curriculum. Never spam.
+**Where to engage (do NOT create a group — join existing):**
+- Well-Trained Mind Forums (20K)
+- Classical Conversations discussion groups (100K+)
+- Charlotte Mason Living Education (15K)
+- Secular Homeschool (30K)
+- State-specific: Texas HS (45K), Florida HS (25K), California HS (20K)
+- Curriculum swap/review groups (dozens, 2-10K each)
 
-**Reddit** (Cost: $0, Time: 3 hr/week)
-- r/homeschool (82K), r/HomeEducation (15K)
-- r/philosophy (18M), r/AskHistorians (2M)
-- r/autodidact (25K), r/selfimprovement
-- **Approach:** Answer questions with depth. Link Encyclopaedia entries as sources when genuinely relevant.
+**Tactics:**
+1. **Answer first, link second.** When a parent asks "What science curriculum works for a 10-year-old?" — write a genuine answer, then mention "I also wrote [link to Encyclopaedia entry] on this topic" at the end
+2. **"Free resource" framing.** Share Encyclopaedia entries as "free resource I made for my kids" — never pitch the membership
+3. **Co-op demo offers.** Post in local groups: "Happy to do a free demo of our AI Faculty for your co-op Zoom call"
+4. **Weekly share (Saturday AM):** One Encyclopaedia entry with a personal note about why it matters
+5. **Avoid:** Direct product links, "check out my startup" posts, anything that looks like an ad
 
-**Co-ops & Local Groups**
-- Reach out to 5 co-ops per month
-- Offer free Encyclopaedia access + demo session
-- Pipeline for institutional ($499/mo) later
+**KPIs:** Referral clicks from FB → site, email signups attributed to FB (UTM), co-op demos booked
 
 </div>
 <div>
 
-### Twitter/X, Threads, Bluesky (Cost: $0)
+### Pinterest — Highest-ROI Visual Platform for Homeschool
+**Time:** 3 hr/week · **Cost:** $0 · **Goal:** 300 monthly clicks by M6
 
-**Content cadence: 5-10 posts/week**
+**Why Pinterest:** 80% of Pinterest users are women 25-54. "Homeschool" has 2M+ monthly searches on Pinterest. Pins have 3-6 month shelf life vs. hours on other platforms.
 
-**Post types:**
-1. **Faculty quotes** — "Here is Darwin on adaptation..." with link
-2. **Apocalypso updates** — "Nuclear risk index moved 2 points this week" with dashboard screenshot
-3. **Build-in-public** — Hardware prototypes, dev progress, founder journey
-4. **Encyclopaedia excerpts** — 280-character teasers from entries
-5. **Community spotlights** — Share how users are using Castalia
+**Pin types (create in Canva):**
+1. **Curriculum planning pins:** "13 Volumes of Human Knowledge — Free Reading Plan" → link to Encyclopaedia index
+2. **Entry highlight pins:** Quote card with author portrait + topic → link to entry
+3. **iNQ Card art:** Blake/Mucha-style illustrations (high save rate)
+4. **Infographic pins:** "What Darwin Actually Wrote About Adaptation" → entry link
+5. **Seasonal:** "Summer Reading for Homeschoolers," "Fall Curriculum Prep," "Holiday Gift Guide — Knowledge Cards"
 
-**Growth target:**
-- Month 1-6: 500 → 2,000 followers
-- Month 6-12: 2,000 → 5,000 followers
-- Focus on engagement rate (>3%) not vanity followers
+**Boards to create:**
+- "Classical Education Resources" · "Homeschool Science Curriculum"
+- "Great Books for Self-Education" · "AI in Education"
+- "Philosophy for Kids" · "Encyclopaedia Entries"
 
-### Podcast Guest Strategy (Cost: $0)
-- Target 1-2 podcast appearances per month
-- Homeschool podcasts, philosophy podcasts, EdTech podcasts, AI/future-of-education pods
-- Talk about the Encyclopaedia concept, not the product
+**Cadence:** 5-10 pins/week (batch-create monthly). Use Tailwind Communities for homeschool reach.
+
+**KPIs:** Monthly impressions, outbound clicks, saves, top-performing pin topics
+
+</div>
+</div>
+
+---
+
+# Social Media Playbook: X/Twitter, Reddit, Instagram
+
+<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
+<div>
+
+### X/Twitter — Primary for Lifelong Learner Segment
+**Time:** 5 hr/week · **Cost:** $0
+
+**Content mix (10-12 posts/week):**
+- **3× Faculty quotes** — "Darwin, on adaptation: [excerpt]" + link
+- **2× Apocalypso hooks** — "APOC nuclear index +2 pts. Here's why." + screenshot + link
+- **2× Build-in-public** — Hardware photos, code screenshots, revenue numbers
+- **1× Thread** — Deep dive into an Encyclopaedia entry (6-10 tweets)
+- **1× Engagement bait** — "Which historical thinker would you ask about AI?" (poll or question)
+- **1× Retweet/comment** — Engage with intellectual accounts
+
+**Who to engage with:**
+- @waitbutwhy, @AstralCodex, @DKBHistory, @philosophybites
+- Longtermism, history, AI safety, philosophy communities
+- Build-in-public founders (#buildinpublic)
+
+**Tone:** First-person, founder voice. Never corporate. "I just shipped Volume VII. Here's what Aristotle taught me about knowledge."
+
+**Growth:** 500 → 5K followers by M12. 3%+ engagement rate.
+
+</div>
+<div>
+
+### Reddit — Highest Trust, Highest Risk
+**Time:** 3 hr/week · **Cost:** $0
+
+**Rules:** Build karma for 4-6 weeks before any mention of Castalia. Reddit detects and punishes self-promotion.
+
+**Subreddits by segment:**
+
+*Homeschool:*
+- r/homeschool (82K) — curriculum Qs
+- r/HomeEducation (15K) — UK-focused
+
+*Lifelong learners:*
+- r/philosophy (18M) — discussion
+- r/AskHistorians (2M) — sourced answers
+- r/autodidact (25K) — methods
+- r/slatestarcodex (105K) — intellectual
+
+*Product-adjacent:*
+- r/edtech, r/artificialintelligence
+- r/robotics (TerrAIn, Year 2)
+
+**Tactics:**
+1. Answer 5+ questions/week with genuine depth — no links
+2. After 1 month: naturally reference Encyclopaedia when relevant
+3. AMA in r/IAmA or r/edtech: "I built a 13-volume AI-authored encyclopaedia — AMA"
+4. Share Apocalypso in r/collapse, r/existentialrisk when topically relevant
+
+</div>
+<div>
+
+### Instagram — Visual Products Showcase
+**Time:** 2 hr/week · **Cost:** $0
+
+**Why:** iNQ Cards, Atlas hardware, and Encyclopaedia art are inherently photogenic. Instagram reaches homeschool moms who don't use X.
+
+**Content (4-5 posts/week):**
+- **Feed (3/week):** Product photos (iNQ Card art, Atlas prototype, hardbound volumes), Encyclopaedia quote cards, "meet the faculty" author portraits
+- **Stories (daily):** Build-in-public snippets, polls ("Which author should we feature?"), behind-the-scenes
+- **Reels (1-2/week):** 15-30s clips: AI Faculty conversation demo, Atlas hands-on, iNQ Card reveal
+
+**Hashtags (rotate 15-20 per post):**
+- #homeschool #classicaleducation #charlottemason #homeschoolcurriculum #homeschoolmom
+- #lifelonglearning #philosophy #greatbooks #selfeducation
+- #edtech #aieducation #learnwithAI
+- #castaliaInstitute #encyclopaedia #inqcards
+
+**Growth:** 200 → 2K followers by M12. Focus on saves (content people bookmark for later).
+
+</div>
+</div>
+
+---
+
+# Video & Audio Strategy: YouTube, TikTok, Podcasts
+
+<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
+<div>
+
+### YouTube — Long-Form Authority
+**Time:** 4 hr/week (Phase 2, Month 7+) · **Cost:** $0-50/video
+
+**Content pillars:**
+1. **"Ask the Faculty"** (3-5 min) — Screen-recorded AI Faculty conversations. "I asked Aristotle about consciousness. Here's what he said."
+2. **Encyclopaedia Readings** (8-15 min) — Dramatic readings from entries with author portraits. ASMR-adjacent.
+3. **Atlas Unboxing & Demos** (5-10 min) — Hardware reveal, setup walkthrough, kids using it
+4. **Build-in-Public** (10-20 min) — Monthly progress updates with real metrics
+5. **iNQ Card Reveals** (2-3 min) — Monthly pack opening, "card of the month" showcase
+
+**SEO for YouTube:** Title = "[Author] on [Topic] — The Encyclopaedia." Tags: author name, topic, "philosophy," "homeschool," "education." Descriptions link to Encyclopaedia entry.
+
+**Target:** 100 subscribers by M9, 500 by M12. Video views matter more than subs.
+
+</div>
+<div>
+
+### TikTok — Viral Discovery Engine
+**Time:** 2 hr/week (Phase 2) · **Cost:** $0
+
+**Why TikTok:** Algorithm rewards niche content. #BookTok (200B+ views) and #LearnOnTikTok (800B+) are massive. Education content over-performs.
+
+**Content (3-5 posts/week):**
+1. **"What [Author] actually said about [Topic]"** — 30-60s, text overlay on author portrait, dramatic hook
+2. **"One fact from the Encyclopaedia"** — 15s, punchy, shareable
+3. **Apocalypso risk alerts** — "The nuclear risk index just moved. Here's what changed." 30s
+4. **iNQ Card reveals** — Visually satisfying card art, ASMR-style pack openings
+5. **Atlas hardware** — Satisfying tech demo clips
+
+**Tone:** Authoritative but not stuffy. "POV: Darwin just explained natural selection better than your biology teacher."
+
+**Hashtags:** #LearnOnTikTok #BookTok #Philosophy #Homeschool #GreatBooks #AIEducation #DarkAcademia
+
+**Target:** 1K followers by M12. Virality > consistency — one breakout video can drive 10K visits.
+
+</div>
+<div>
+
+### Podcasts — Guest Appearances
+**Time:** 2 hr/week pitching + prep · **Cost:** $0
+
+**Target: 1-2 appearances per month starting M3**
+
+| Tier | Shows | Pitch Angle |
+|------|-------|------------|
+| **Homeschool** | Read-Aloud Revival, Brave Writer, Pam Barnhill, Schole Sisters | "A 13-volume encyclopaedia for classical homeschooling" |
+| **Philosophy** | Philosophize This!, Partially Examined Life, Hi-Phi Nation | "What happens when you talk to Aristotle?" |
+| **AI/Tech** | Practical AI, AI Breakdown, Latent Space | "10K AI personas — beyond the chatbot" |
+| **Indie maker** | Indie Hackers, MFM, Tropical MBA | "Bootstrapping atoms + bits with AI" |
+| **Niche** | The Great Books Podcast, Intellectual Explorers | "Rebuilding the great conversation" |
+
+**Pitch template:** Personal story + Encyclopaedia concept + one specific surprising example (e.g., "Kant disagrees with Hume in the marginalia").
+
+**Attribution:** Custom UTM link per appearance. "Visit castalia.institute/[podcastname]"
 
 </div>
 </div>
