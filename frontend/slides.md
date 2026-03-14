@@ -222,7 +222,8 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 | Channel | Cost | Expected Impact | Phase |
 |---------|------|----------------|-------|
-| **SEO** (Encyclopaedia entries) | $0 | Primary driver — 483+ indexed pages | Phase 1 |
+| **SEO** (Encyclopaedia + Bibliotech) | $0 | Primary driver — 483+ entries + 76K texts indexed | Phase 1 |
+| **Bibliotech / Commonplace / Feed** | $0 | Faculty marginalia + social proof on Fediverse | Phase 1 |
 | **Organic social** (X, Reddit, Facebook) | $0 | Community seeding, 5-10 posts/week | Phase 1 |
 | **Email marketing** (Buttondown/Loops) | $0-29/mo | Nurture + conversion, 2-3 emails/week | Phase 1 |
 | **Homeschool community outreach** | $0-200/mo | Direct access to target segment | Phase 1 |
@@ -241,35 +242,35 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 # Channel 1: SEO — The $0 Growth Engine
 
-**Why this works:** 483+ Encyclopaedia entries are unique, long-form, topically specific pages. No competitor has this content.
+**Why this works:** 483+ Encyclopaedia entries + 76,000 Bibliotech texts + 177 faculty bookshelves = massive indexable surface. Faculty marginalia in the Commonplace creates unique content no competitor can replicate.
 
 <div class="grid grid-cols-2 gap-6 mt-4 text-sm">
 <div>
 
 ### Keyword Strategy
 
-**Head terms** (awareness, not rankable yet):
-<br>"online encyclopedia", "AI tutor" — we build authority
-
 **Long-tail terms** (rankable now):
-<br>"Darwin on adaptation", "Kant on duty", "Aristotle on nature", "William James attention"
+<br>"Darwin on adaptation", "Kant on duty", "Tao Te Ching full text", "Plato Republic online"
 
 **Educational queries:**
 <br>"philosophy curriculum homeschool", "classical education resources", "great books for self-education"
 
-**Apocalypso queries:**
-<br>"existential risk dashboard", "civilization collapse risk", "AI alignment tracker"
+**Bibliotech primary source queries:**
+<br>"Rumi poems online", "Confucius Analects text", "Sundiata epic", "Popol Vuh full text"
+
+**Faculty marginalia** (unique — no competition):
+<br>"Plato on Lewis Carroll", "Darwin reading notes", "Hypatia on Euclid"
 
 </div>
 <div>
 
 ### SEO Actions (Cost: $0)
 
-1. **Technical:** Each Encyclopaedia entry = unique URL with schema markup (Article, Author, Book)
-2. **Internal linking:** Entries cross-reference volumes, authors, and disciplines
-3. **Meta optimization:** Title = "[Author] on [Topic] — The Encyclopaedia"
-4. **Sitemap:** Submit 483+ page sitemap to Google Search Console
-5. **Content velocity:** 3-5 new entries/week as volumes publish
+1. **Encyclopaedia:** 483+ entries, unique URLs, schema markup (Article, Author, Book)
+2. **Bibliotech:** 76K text catalog pages with title/author/archive metadata
+3. **Faculty bookshelves:** 177 curated landing pages ("Plato's Library," "Darwin's Shelf")
+4. **Internal linking:** Encyclopaedia entries → Bibliotech sources → Commonplace marginalia
+5. **Content velocity:** 3-5 new entries/week + faculty marginalia generated continuously
 6. **Backlinks:** Submit to educational resource directories, Wikipedia citation opportunities
 
 ### Expected Timeline
@@ -775,6 +776,9 @@ Q4 2026 (Months 10-12): SCALE PREP
 | Product | Marketing Channel | Cost | Message | CTA |
 |---------|------------------|------|---------|-----|
 | **Encyclopaedia** | SEO, Social, Email | $0 | "Read what Darwin actually wrote about adaptation" | Free web access |
+| **Bibliotech** | SEO (76K texts), Social | $0 | "76,000 texts. 177 faculty libraries. Read with AI." | Browse the Shelf |
+| **Commonplace** | Social, Feed, Email | $0 | "See Plato's marginalia on Lewis Carroll" | Read faculty notes |
+| **Feed** | Fediverse/ActivityPub | $0 | "Follow the conversation" | Public timeline |
 | **AI Faculty** | Social demos, Podcast | $0 | "Ask Aristotle anything — and get his answer" | Try 5 free chats |
 | **Membership** | Email sequence, Retargeting | $0-29/mo | "Unlock unlimited conversations + courses" | Start free trial |
 | **Atlas Field Tablet** | Crowdfunding, Conventions | $500 | "A learning device, not a distraction device" | Pre-order $99 |

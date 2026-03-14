@@ -4,7 +4,7 @@
 
 This document is the detailed marketing strategy for Castalia Institute. It covers who we are marketing to, through which channels, at what cost, on what timeline, and how we measure success.
 
-**Core thesis:** The Encyclopaedia is the marketing engine. 483+ unique, long-form pages generate free organic traffic. AI Faculty conversations demonstrate value. Physical products (Atlas, iNQ Cards) create word-of-mouth. The entire ecosystem converts and retains users without requiring paid marketing in Year 1.
+**Core thesis:** The Encyclopaedia is the SEO engine. Bibliotech is the depth engine. The Commonplace is the engagement engine. Together: 483+ encyclopaedia entries generate free organic traffic, 76,000+ library texts keep users reading, and faculty marginalia (Plato annotating Lewis Carroll, Darwin reflecting on Lucretius) create shareable content that no competitor can replicate. AI Faculty conversations demonstrate value. Physical products (Atlas, iNQ Cards) create word-of-mouth. The Feed (ActivityPub/Fediverse) surfaces all this activity as social proof. The entire ecosystem converts and retains users without requiring paid marketing in Year 1.
 
 **Year 1 marketing budget: ~$3,000.** Year 2: $18-24K. Year 3: $50-80K.
 
@@ -36,6 +36,9 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 | Product | URL | Status | Marketing Role |
 |---------|-----|--------|---------------|
 | The Encyclopaedia | cyc.castalia.institute | LIVE | SEO engine. Every entry = indexed page + social content |
+| Bibliotech | bibliotech.castalia.institute | LIVE | Depth engine. 76,000+ texts across 14 source archives. Faculty bookshelves make primary sources browsable. The reader (marginalia, TTS, AI assistant) is the product demo |
+| Commonplace | commonplace.castalia.institute | LIVE | Engagement engine. AI Faculty read, annotate, and reflect — Plato's marginalia on Lewis Carroll, Darwin's notes on Lucretius. Faculty thinking made visible |
+| Feed | feed.castalia.institute | LIVE | Social proof. ActivityPub/Fediverse social feed surfaces faculty activity, user highlights, and community discussion. Public timeline — no login required |
 | Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Risk updates drive topical social sharing |
 | AI Faculty | castalia.institute | LIVE | Demo engine. 2-minute conversation sells better than any ad |
 | The Inquirer | inquirer.inquiry.institute | LIVE | Authority. Quarterly journal adds publishing credibility |
@@ -59,6 +62,31 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 | TerrAIn Home/Research | $599-4,000 | DESIGN | Kickstarter + NVIDIA GTC |
 | Magisteria | ~$1,200 program | DESIGN | Retention & progression |
 | Institution tier | $499/mo (50 seats) | PLANNED | Direct sales pipeline |
+
+### The Content Flywheel: How These Products Feed Each Other
+
+The ecosystem is designed so every product generates content that markets another:
+
+```
+Encyclopaedia entry (SEO) → reader finds Bibliotech → reads primary source
+    → faculty marginalia in Commonplace → shared on Feed (social proof)
+        → follower discovers Encyclopaedia → cycle repeats
+
+Faculty conversation (demo) → mentions a book → user opens it in Bibliotech
+    → marginalia by the same faculty visible in the reader
+        → user shares highlight → organic reach
+
+iNQ Card (physical) → QR links to Encyclopaedia entry → entry links to Bibliotech shelf
+    → reader becomes member → Commonplace notes become personal study tool
+```
+
+**Key insight:** Bibliotech, Commonplace, and Feed turn the Encyclopaedia from a static reference into a living intellectual community. Faculty don't just teach — they read, annotate, argue, and reflect in public. That activity is content, and content is marketing.
+
+**Bibliotech-specific flywheel:**
+- 76,000+ texts across 14 source archives = long-tail SEO on every title/author
+- 177 faculty bookshelves = curated "what to read" lists (high-value content type)
+- Faculty marginalia = unique content no one else has (Plato's notes on Carroll, Hypatia's notes on Euclid)
+- Reader features (TTS, translation, AI assistant) = product demo built into every reading session
 
 ---
 
@@ -201,15 +229,17 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 
 ### Channel 1: SEO — The $0 Growth Engine
 
-**Why this is priority #1:** The Encyclopaedia generates 483+ unique, long-form, topically specific pages. Each is a potential organic search landing page. No competitor has this content library.
+**Why this is priority #1:** The Encyclopaedia generates 483+ unique, long-form pages. Bibliotech adds 76,000+ cataloged texts with individual title/author pages. Together, the indexable surface area is enormous — and growing. No competitor has this content library.
 
 **Technical SEO actions:**
-1. Each entry = unique URL with schema markup (Article, Author, Book, EducationalOccupation)
-2. XML sitemap submitted to Google Search Console (483+ pages)
-3. Structured data: volume, author, related entries
-4. Internal linking: every entry cross-references related volumes, authors, and topics
-5. Title format: "[Author] on [Topic] — The Encyclopaedia"
-6. Meta descriptions: first 160 characters of each entry (inherently compelling)
+1. Each Encyclopaedia entry = unique URL with schema markup (Article, Author, Book, EducationalOccupation)
+2. Each Bibliotech text = unique URL with title, author, source archive metadata
+3. Faculty bookshelves = curated landing pages (e.g., "Plato's Reading List," "Darwin's Library")
+4. XML sitemaps submitted to Google Search Console (483+ Encyclopaedia pages + Bibliotech catalog)
+5. Structured data: volume, author, related entries, source archive, faculty shelf
+6. Internal linking: Encyclopaedia entries link to Bibliotech primary sources; Bibliotech links back to faculty entries
+7. Title formats: "[Author] on [Topic] — The Encyclopaedia" and "[Title] — Bibliotech"
+8. Meta descriptions: first 160 characters of each entry (inherently compelling)
 
 **Keyword strategy:**
 
@@ -219,6 +249,8 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 | Educational queries | "philosophy curriculum homeschool" | Medium | Medium | Rankable with authority |
 | Encyclopaedia-adjacent | "online encyclopedia AI", "interactive encyclopedia" | Medium | Medium | Rankable Month 6+ |
 | Apocalypso-specific | "existential risk dashboard", "civilization risk tracker" | Very low | Low | Rankable now |
+| Bibliotech / primary source | "Tao Te Ching full text", "Plato Republic online", "Rumi poems" | Medium | Very high | Rankable Month 3+ |
+| Faculty marginalia | "Plato on Lewis Carroll", "Darwin reading notes" | Very low | Low but viral | Unique content — no competition |
 | Competitor alternatives | "Great Courses alternative", "Brilliant alternative" | Medium-high | Medium | Rankable Year 2 |
 
 **Expected SEO timeline:**
