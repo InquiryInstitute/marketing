@@ -1,4 +1,14 @@
-# Castalia Institute — Comprehensive Marketing Strategy
+# Castalia Institute — Marketing Strategy & Plan
+
+## Executive Summary
+
+This document is the detailed marketing strategy for Castalia Institute. It covers who we are marketing to, through which channels, at what cost, on what timeline, and how we measure success.
+
+**Core thesis:** The Encyclopaedia is the marketing engine. 483+ unique, long-form pages generate free organic traffic. AI Faculty conversations demonstrate value. Physical products (Atlas, iNQ Cards) create word-of-mouth. The entire ecosystem converts and retains users without requiring paid marketing in Year 1.
+
+**Year 1 marketing budget: ~$3,000.** Year 2: $18-24K. Year 3: $50-80K.
+
+---
 
 ## Brand Identity
 
@@ -12,320 +22,480 @@
 - Bootstrap-funded — community-supported, not VC-dependent
 - Full-spectrum audience — ages 5 to 105, homeschoolers to researchers
 
----
-
-## Product Portfolio
-
-### Core Products (7)
-
-#### 1. The Encyclopaedia — `cyc.castalia.institute`
-**Category:** Publication
-**Status:** LIVE — Volumes 0–III published, IV–XII in production
-
-Thirteen volumes spanning the full circle of human knowledge. 483+ entries written by 150+ AI-embodied historical authors — meaning AI-generated text styled after each public-domain figure's voice, drawing on their published works, then reviewed by the founder. Adult and children's editions. Canon entries plus marginalia from secondary voices.
-
-Volumes: 0 Continuity · I Mind · II Language & Meaning · III Nature · IV Measure · V Society · VI Art & Form · VII Knowledge · VIII History · IX Ethics · X Machines · XI Futures · XII Limits
-
-| Format | Price |
-|--------|-------|
-| Web | Free |
-| Digital | $9.99/volume |
-| Hardbound | $29–49/volume |
-
-**Marketing role:** Content engine. Every entry is standalone social content. SEO magnet. Gateway to the entire ecosystem.
-
-#### 2. Apocalypso — `apocalypso.castalia.institute`
-**Category:** Observatory & Book
-**Status:** LIVE — Dashboard and book published
-
-Live risk dashboard tracking 13 APOC modules — climate, AI/alignment, nuclear, pandemic, biodiversity, cyber, democratic erosion, etc. React/Vite frontend, Python data pipelines, nightly RSS ingest from OWID, NOAA, WHO, GDELT, 16 RSS feeds. Companion book: *A Field Guide to the Ends of the World*, 13 chapters each by a historical voice.
-
-| Format | Price |
-|--------|-------|
-| Dashboard | Free |
-| Book (print) | $19.99 |
-
-**Marketing role:** News hook. Shareable, topical, evergreen engagement. Drives traffic from current events back to the broader ecosystem.
-
-#### 3. Atlas — `atlas.castalia.institute`
-**Category:** Compute Devices (Hardware)
-**Status:** PROTOTYPE — Crowdfunding planned
-
-A family of purpose-built learning devices. Astro PWA frontend, Capacitor Android. All devices run the Castalia platform locally.
-
-| Device | Description | Founding Price | MSRP |
-|--------|------------|----------------|------|
-| Classic (Ægis) | 7" IPS tablet, kickstand, kiosk mode | $99 | $149 |
-| DS | Dual-screen clamshell (7" IPS + 4.2" E-ink) | At cost | TBD |
-| TriCorder | Handheld field device, d-pad, camera, sensors | At cost | TBD |
-| Sense | IoT environmental sensor hub | At cost | TBD |
-| Inquiry Appliance | Local AI compute node (Jetson) | — | $500 |
-
-Unit BOM: ~$30 for Classic (~70% margin at $99). Inquiry Appliance: $400 hardware, $100 margin (20% margin — treated as institutional loss leader that drives membership revenue).
-
-**Marketing role:** Differentiation from pure-software competitors. Tangible product for crowdfunding.
-
-#### 4. TerrAIn — `terrain.castalia.institute`
-**Category:** Robotics Platform
-**Status:** DESIGN — Crowdfunding planned
-
-Open robotics platform: RC construction vehicles (excavators, bulldozers, wheel loaders, dump trucks) operating on a 4×8 ft raised bed with real terrain features. ESP32-S3 teleoperation, Jetson Orin Nano brain for autonomy, ROS2, NVIDIA Isaac Sim. Controlled by Atlas DS handheld.
-
-| Tier | Includes | Price |
-|------|----------|-------|
-| Individual vehicles | Huina 1:14, ESP32-S3 retrofit | $55–85 each |
-| Home Kit | 1 vehicle, base station, raised bed | $599–899 |
-| Research Kit | Full fleet, Jetson Orin Nano, perception gantry | $2,000–4,000 |
-
-System BOM: ~$1,150 (full research config). Margin: 50–60%.
-
-**Marketing role:** Viral physical product. STEM education differentiator. Partnership magnet (NVIDIA Inception).
-
-#### 5. iNQ Cards — `castalia.institute/inq`
-**Category:** Physical Subscription
-**Status:** DESIGN
-
-Monthly illustrated card packs — Blake & Mucha art style. Each card has a QR code linking to an AI faculty conversation with that historical figure.
-
-| Product | Price | Details |
-|---------|-------|---------|
-| Monthly subscription | $20/mo | 12 illustrated cards per pack |
-| NFC Collector Deck | $40–60 (one-time) | NFC-enabled, premium stock |
-| Bamboo Edition | $40–80 (one-time) | Laser-engraved bamboo cards |
-| Metal Magisteria | Included in program | Etched brass rank medals |
-
-COGS: ~$3–5/pack including printing, packaging, and fulfillment. **~75–85% margin** (not 95% — fulfillment costs are real).
-
-Special series: Faculty Cards (Encyclopaedia authors), Epoch Cards (civilizations), Element Cards (periodic table), Expedition Cards.
-
-**Marketing role:** Monthly recurring revenue. Physical touchpoint. Collectibility drives retention.
-
-#### 6. Magisteria — `castalia.institute/credentials`
-**Category:** Credential System
-**Status:** DESIGN
-
-Micro-credential ladder with five ranks:
-
-1. **Apprentice** — Complete introductory course
-2. **Adept** — Pass subject assessment
-3. **Magister** — Defend a thesis via Socratic viva
-4. **Fellow** — Original contribution to the Encyclopaedia
-5. **Custodian** — Steward a domain of knowledge
-
-Physical etched-brass medals at each rank. W3C Open Badges digital credentials.
-
-| Program | Price |
-|---------|-------|
-| Core program (Apprentice → Magister) | ~$1,200 |
-| Specialization tracks | $400–600 each |
-| Hardware bundle (Atlas + course) | ~$1,499 |
-
-**Marketing role:** Retention and progression mechanic. Aspirational branding.
-
-#### 7. AI Faculty & Platform — `castalia.institute`
-**Category:** AI Platform
-**Status:** LIVE — 10,000 faculty, TTS, auth, courses
-
-10,000 AI faculty from history's greatest minds. Socratic dialogue. SAMWISE (Sam) personal learning companion. 10 colleges. Structured courses.
-
-| Tier | Price | Includes |
-|------|-------|----------|
-| Free | $0 | 5 conversations/day, Encyclopaedia web access, Apocalypso dashboard |
-| Membership | $49/mo | Unlimited conversations, Sam companion, courses, Magisteria enrollment |
-| Institution | $499/mo | Up to 50 seats, Encyclopaedia access, Inquiry Appliance license, Magisteria admin |
-
-**Marketing role:** The connective tissue. Every other product drives users here for conversation and deeper engagement.
-
-### Supporting Products
-
-#### The Inquirer — `inquirer.inquiry.institute`
-**Category:** Quarterly Journal
-**Status:** LIVE — 4 issues published (Vol 1 Issues 1-3, Vol 2 Issue 1)
-
-AI faculty publish essays, dialogues, and reviews in their distinctive voices. Ghost CMS. Migrating to `inquirer.castalia.institute`.
-
-#### Commonplace — `commonplace.inquiry.institute`
-**Category:** Community Platform
-**Status:** DEPLOYED — WordPress/BuddyPress on SiteGround. Migrating to `commonplace.castalia.institute`.
+**Brand voice:**
+- Scholarly but accessible — not academic jargon, not dumbed down
+- Confident without hype — "we built this" not "we're disrupting education"
+- Build-in-public transparency — share the real numbers, the real challenges
 
 ---
 
-## Market Opportunity
+## Product Portfolio (for marketing purposes)
 
-### Bottom-Up Sizing
+### Products That Market Themselves (content engines)
 
-**Segment 1: Homeschool families**
-- 3.7M US homeschool students (~2M families)
-- ~15% of families spend $500+/yr on curriculum platforms
-- Addressable: ~300K families
-- At $49/mo membership: **$176M SAM**
+| Product | URL | Status | Marketing Role |
+|---------|-----|--------|---------------|
+| The Encyclopaedia | cyc.castalia.institute | LIVE | SEO engine. Every entry = indexed page + social content |
+| Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Risk updates drive topical social sharing |
+| AI Faculty | castalia.institute | LIVE | Demo engine. 2-minute conversation sells better than any ad |
+| The Inquirer | inquirer.inquiry.institute | LIVE | Authority. Quarterly journal adds publishing credibility |
 
-**Segment 2: Lifelong learners**
-- ~72M US adults express interest in continuing education
-- ~0.5% would pay for a premium physical-first learning platform
-- Addressable: ~360K individuals
-- At $49/mo membership: **$212M SAM**
+### Products That Generate Revenue (conversion targets)
 
-**Membership SAM: ~$400M** (US only, excludes hardware, publications, cards, credentials, and institutional contracts)
+| Product | Price | Status | Primary Channel |
+|---------|-------|--------|----------------|
+| Membership | $49/mo | LIVE | Email conversion sequences |
+| iNQ Cards | $20/mo | DESIGN | Social (highly visual, shareable) |
+| Atlas Classic | $99 founding | PROTOTYPE | Crowdfunding + conventions |
+| Encyclopaedia (print) | $9.99-49/vol | IN PRODUCTION | SEO + email |
+| Apocalypso book | $19.99 | LIVE | Paired with dashboard traffic |
 
-**Castalia's wedge:** The Encyclopaedia as a free content magnet → organic search traffic → conversion to paid membership, hardware, and card subscriptions.
+### Products That Build the Future (longer-term pipeline)
 
----
-
-## Go-to-Market Strategy
-
-### Phase 1: Content as Marketing (Months 1–6)
-
-**Objective:** Establish authority through published works before spending on acquisition.
-
-**Actions:**
-- Publish remaining Encyclopaedia volumes (IV–VIII by month 6)
-- Launch Apocalypso dashboard (topical, shareable)
-- Launch Atlas Classic crowdfunding campaign on Open Collective (300 units at $99)
-- Publish iNQ Cards Genesis Deck previews
-- Platform auth + recommendation engine live
-- SEO: every Encyclopaedia entry as an indexed page
-
-**Channels:**
-- Organic search (Encyclopaedia entries rank for subject queries)
-- Social sharing (Apocalypso risk updates as news hooks)
-- Homeschool community outreach (Facebook groups, co-ops, conventions — targeting Classical education segment: Well-Trained Mind, Memoria Press adjacent families)
-- Crowdfunding platforms (Open Collective, Kickstarter for Atlas)
-
-**Metrics:**
-- Encyclopaedia monthly readers (target: 5K by month 6)
-- Atlas crowdfunding units sold (target: 300)
-- Email list growth (target: 2K)
-- Free→paid conversion rate (target: 2%)
-
-### Phase 2: Product-Led Growth (Months 7–12)
-
-**Objective:** Convert readers into members and hardware customers.
-
-**Actions:**
-- Publish Encyclopaedia Volumes IX–XII
-- Atlas Classic production run and shipping (founding cohort)
-- iNQ Cards subscription live ($20/mo)
-- Hardbound Encyclopaedia volumes available
-- Launch analytics and personalization
-
-**Channels:**
-- Content marketing (Encyclopaedia → membership funnel)
-- Email sequences (free readers → paid membership)
-- YouTube/TikTok (Atlas unboxing, Encyclopaedia readings)
-- Homeschool curriculum partnerships
-- Conference presence (NVIDIA GTC, maker faires)
-
-**Metrics:**
-- Paid members (target: 200 by month 12)
-- Atlas devices shipped (target: 300)
-- iNQ Card subscribers (target: 100)
-
-### Phase 3: Scale (Months 13–24)
-
-**Objective:** Hardware expansion. Institutional pipeline. Community growth.
-
-**Actions:**
-- TerrAIn Home Kit crowdfunding + production
-- Atlas DS crowdfunding
-- Magisteria credential system live
-- Encyclopaedia Candlemas revision cycle
-- First institutional pilots (Inquiry Appliance + membership)
-- Performance marketing (paid social, search) — only after cash-flow positive
-
-**Channels:**
-- Institutional outreach (libraries, schools, museums)
-- Partner channels (NVIDIA Inception, AWS Activate, Google Cloud for Startups)
-- Affiliate program (homeschool bloggers, education YouTubers)
-- Paid acquisition (Google Ads on subject queries, Meta for parents)
-
-**Metrics:**
-- Monthly recurring revenue from memberships + iNQ Cards
-- Hardware revenue from Atlas + TerrAIn
-- Institutional contracts signed
-- Magisteria credentials awarded
+| Product | Price | Status | Marketing Role |
+|---------|-------|--------|---------------|
+| Atlas DS, TriCorder, Sense | TBD | DESIGN | Year 2 crowdfunding |
+| Inquiry Appliance | $500 | DESIGN | Institutional sales |
+| TerrAIn Home/Research | $599-4,000 | DESIGN | Kickstarter + NVIDIA GTC |
+| Magisteria | ~$1,200 program | DESIGN | Retention & progression |
+| Institution tier | $499/mo (50 seats) | PLANNED | Direct sales pipeline |
 
 ---
 
-## Revenue Model
+## Target Segments
 
-Five revenue engines:
+### Segment 1: Homeschool Families (Primary)
 
-| Engine | Products | Margin | Year 1 Target | Assumptions |
-|--------|----------|--------|----------------|-------------|
-| Memberships | $49/mo | ~90% | $50K | Linear ramp to 200 by Y1 end, ~85 avg active/mo |
-| iNQ Cards | $20/mo | ~80% | $12K | Launch month 3, ramp to 100 subs, ~50 avg active |
-| Hardware | Atlas Classic $99 | ~70% | $30K | 300 founding cohort at $99 |
-| Hardware | TerrAIn Home | ~55% | $7K | ~10 kits, late Y1 launch |
-| Publications | Digital + hardbound + book | ~90% | $15K | Encyclopaedia + Apocalypso + crowdfunding |
-| Credentials | Magisteria | ~90% | $0 | Launches Y2 |
-| Institutional | $499/mo | ~60% | $0 | Pipeline building in Y1 |
-| **Total** | | **~80% blended** | **~$114K** | |
+**Market size:** 3.7M US homeschool students (~2M families)
+**Addressable:** ~300K families spending $500+/yr on curriculum
+**Membership SAM:** $176M (300K × $49/mo × 12)
 
-**Year 1 is a bootstrapping year.** Revenue covers infrastructure costs and validates demand. Growth comes from organic content (Encyclopaedia SEO) and community (crowdfunding, homeschool networks). No paid marketing spend in Year 1.
+**Demographics:**
+- Primary decision-maker: mother, 30-45, college-educated
+- Household income: $75K-150K
+- Education philosophy: Classical education, Charlotte Mason, eclectic
+- Pain point: No single comprehensive platform — juggling 5-10 different resources
 
-### 3-Year Outlook
+**Where they spend time online:**
+- Facebook groups: Well-Trained Mind (20K+), Classical Conversations (100K+), Charlotte Mason discussion groups
+- Blogs: Cathy Duffy Reviews, HSLDA, The Homeschool Mom, Hip Homeschool Moms
+- Reddit: r/homeschool (82K), r/HomeEducation (15K)
+- Podcasts: Brave Writer, Read-Aloud Revival, The Homeschool Sisters
+- Conventions: Great Homeschool Conventions (7 cities), THSC (Texas), FPEA (Florida)
 
-|| Year 1 | Year 2 | Year 3 |
-|---|---|---|---|
-| Encyclopaedia Monthly Readers | 5K | 25K | 100K |
-| Paid Members (end of year) | 200 | 1,500 | 5,000 |
-| Atlas Devices Shipped (cumulative) | 300 | 2,300 | 8,300 |
-| iNQ Card Subscribers (end of year) | 100 | 800 | 3,000 |
-| **Total Revenue** | **$114K** | **$910K** | **$3.4M** |
+**Discovery journey (Maria Chen persona):**
+1. Searches "classical education science curriculum" on Google
+2. Finds Encyclopaedia entry "Darwin on Adaptation" (SEO)
+3. Reads entry, browses other volumes, bookmarks site
+4. Prompted to try AI Faculty — talks to Darwin for 5 minutes (hook)
+5. Email capture: "Get weekly Encyclopaedia highlights"
+6. Welcome sequence introduces full ecosystem over 10 days
+7. Conversion email: "Unlock unlimited Faculty conversations — $49/mo"
+8. Later: adds iNQ Cards ($20/mo) and pre-orders Atlas ($99) for her kids
 
-**Churn assumption:** 5% monthly membership churn. At $49/mo this is premium pricing — retention depends on course progression, iNQ Card engagement, and Magisteria milestones keeping members invested. If churn is 10% instead of 5%, Year 3 member count drops from 5,000 to ~3,200 and revenue from $3.4M to ~$2.3M.
+### Segment 2: Lifelong Learners
 
-### Year 2 Growth Mechanism ($114K → $910K)
+**Market size:** 72M US adults interested in continuing education
+**Addressable:** ~360K who'd pay for premium learning
+**Membership SAM:** $212M
 
-Year 2 growth is driven by four factors, not a single hockey-stick assumption:
+**Demographics:**
+- Age: 45-75 (peak: recently retired or semi-retired)
+- Education: college-educated, intellectually curious
+- Currently using: Great Courses/Wondrium, Audible, university extension courses
+- Pain point: MOOCs feel hollow, YouTube lacks structure, universities won't take them
 
-1. **SEO compounding:** 483+ Encyclopaedia entries index over 12 months. By Y2, entries like "Darwin on Adaptation" rank for long-tail educational queries. Monthly readers: 5K → 25K (proven pattern for reference content sites).
-2. **Atlas word-of-mouth:** 300 founding families are evangelists. Crowdfunding for Atlas DS drives next 2,000 units. Each device generates ongoing membership revenue.
-3. **iNQ Cards community:** Physical cards create social sharing (unboxing videos, collection photos). 100 subs → 800 subs driven by existing member referrals.
-4. **First institutional deals:** The Inquiry Appliance serves as an enterprise pilot. Even 3-5 institutional contracts at $499/mo = $18-30K/yr with expansion potential.
+**Where they spend time online:**
+- Reddit: r/philosophy (18M), r/AskHistorians (2M), r/autodidact (25K), r/TrueFilm
+- Twitter/X: intellectual communities, longtermism, history accounts
+- Podcasts: Lex Fridman, EconTalk, Philosophize This!, In Our Time (BBC)
+- YouTube: Great Courses Plus (now Wondrium), CrashCourse, 3Blue1Brown
 
-**What must go right:** Encyclopaedia SEO must compound (the content exists — indexing is the variable). Atlas shipping must be on time. iNQ Cards must achieve product-market fit with the first 100 subscribers.
+**Discovery journey (James Okonkwo persona):**
+1. Googles "Bergson consciousness philosophy" or "Henri Bergson intuition"
+2. Finds Encyclopaedia entry authored by "Bergson" — reads it, intrigued by the voice
+3. Tries AI Faculty: has a 10-minute conversation with Bergson about free will
+4. Bookmarks site, returns next day to read more entries
+5. Email capture: "The Encyclopaedia Weekly — curated entry highlights"
+6. Conversion: "Unlimited conversations with 10,000 minds — $49/mo"
+7. Retention: iNQ Cards as a physical collection, Magisteria as a progression goal
 
-### Year 3 Growth Mechanism ($910K → $3.4M)
+### Segment 3: STEM Educators (Secondary, Phase 2)
 
-1. **Institutional pipeline converts:** 10-20 institutional clients (libraries, homeschool co-ops, after-school programs) at $499/mo. TerrAIn Research kits for STEM labs.
-2. **TerrAIn hardware launches:** Viral robotics content on YouTube/TikTok drives awareness. ~500 kits at $599-4K.
-3. **Magisteria revenue begins:** First cohort completes credentialing. Fee revenue + retention impact.
-4. **Paid acquisition (small):** First marketing spend after cash-flow positive. $2-3K/mo on Google Ads targeting homeschool curriculum queries.
+**Where:** NVIDIA GTC, maker faires, STEM education conferences
+**Entry product:** TerrAIn demo → Home Kit purchase → Institutional inquiry
+**Timeline:** Year 2 focus after TerrAIn production begins
 
-**What could go wrong:** Hardware manufacturing delays. Lower-than-expected institutional adoption. iNQ Card churn if novelty wears off.
+### Segment 4: Independent Learners / Autodidacts (Secondary)
 
----
-
-## Content Marketing Flywheel
-
-```
-Encyclopaedia + Apocalypso (150+ authors, 483+ entries)
-        ↓
-  SEO + Social sharing → Free readers
-        ↓
-  AI Faculty conversations → Engaged users
-        ↓
-  iNQ Cards + Atlas devices → Paying customers
-        ↓
-  Magisteria credentials → Retained learners
-        ↓
-  Encyclopaedia contributions ← Fellows write new entries
-```
-
-Each product feeds every other:
-- Encyclopaedia entries become iNQ Card subjects and faculty conversation starters
-- Apocalypso risk updates drive return visits and social shares
-- Atlas hardware runs the platform offline, creating device-locked engagement
-- TerrAIn robotics generates viral video content and connects to Encyclopaedia STEM volumes (Machines, Measure)
-- iNQ Cards create monthly physical touchpoints driving platform return
-- Magisteria progression keeps learners moving through courses and contributions
-- Faculty conversations surface gaps that inform new Encyclopaedia entries
+**Where:** Twitter/X, Reddit, Apocalypso dashboard (news hook entry point)
+**Entry product:** Apocalypso → Faculty conversations → Membership
+**Timeline:** Organic from Day 1, formal targeting in Year 2
 
 ---
 
-## Competitive Landscape
+## Channel Strategy (Detailed)
+
+### Channel 1: SEO — The $0 Growth Engine
+
+**Why this is priority #1:** The Encyclopaedia generates 483+ unique, long-form, topically specific pages. Each is a potential organic search landing page. No competitor has this content library.
+
+**Technical SEO actions:**
+1. Each entry = unique URL with schema markup (Article, Author, Book, EducationalOccupation)
+2. XML sitemap submitted to Google Search Console (483+ pages)
+3. Structured data: volume, author, related entries
+4. Internal linking: every entry cross-references related volumes, authors, and topics
+5. Title format: "[Author] on [Topic] — The Encyclopaedia"
+6. Meta descriptions: first 160 characters of each entry (inherently compelling)
+
+**Keyword strategy:**
+
+| Category | Example Keywords | Competition | Volume | Rankability |
+|----------|-----------------|-------------|--------|------------|
+| Author + Topic | "Darwin on adaptation", "Kant on duty" | Very low | Low but targeted | Highly rankable now |
+| Educational queries | "philosophy curriculum homeschool" | Medium | Medium | Rankable with authority |
+| Encyclopaedia-adjacent | "online encyclopedia AI", "interactive encyclopedia" | Medium | Medium | Rankable Month 6+ |
+| Apocalypso-specific | "existential risk dashboard", "civilization risk tracker" | Very low | Low | Rankable now |
+| Competitor alternatives | "Great Courses alternative", "Brilliant alternative" | Medium-high | Medium | Rankable Year 2 |
+
+**Expected SEO timeline:**
+- Months 1-3: Google indexes 483+ pages. Minimal traffic (~500/mo).
+- Months 4-6: Long-tail queries start ranking (positions 5-20). ~2,000/mo.
+- Months 6-12: Compound growth as domain authority builds. ~10,000-15,000/mo.
+- Year 2: 25,000-50,000/mo as more entries publish and backlinks accumulate.
+
+**Backlink strategy ($0):**
+- Submit to educational resource directories (DMOZ successors, ODP mirrors)
+- Wikipedia citation opportunities (Encyclopaedia entries cite primary sources)
+- Homeschool curriculum review sites
+- Build-in-public posts that get shared by EdTech newsletters
+
+### Channel 2: Community & Organic Social
+
+**Facebook (Homeschool groups) — 5 hr/week, $0**
+
+Target groups:
+- Well-Trained Mind Forums (20K+ members)
+- Classical Conversations discussion groups (100K+)
+- Charlotte Mason groups
+- Curriculum swap/review groups
+- State-specific homeschool groups
+
+**Approach:** Value-first. Never post "check out our product." Instead:
+- When a parent asks about science curriculum, share the relevant Encyclopaedia entry as a free resource
+- When someone asks about AI in education, share a thoughtful perspective + link
+- Offer free demo sessions to co-ops
+- Share build-in-public updates in appropriate threads
+
+**Reddit — 3 hr/week, $0**
+
+Target subreddits:
+- r/homeschool (82K), r/HomeEducation (15K)
+- r/philosophy (18M), r/AskHistorians (2M)
+- r/autodidact (25K), r/selfimprovement
+- r/edtech, r/artificialintelligence
+
+**Approach:** Answer questions with genuine depth. Use Encyclopaedia entries as sources when organically relevant. Build karma before any self-promotion. Consider AMAs ("I built a 13-volume encyclopaedia with AI").
+
+**Twitter/X, Threads, Bluesky — 5 hr/week, $0**
+
+Content cadence: 5-10 posts/week
+
+| Post Type | Frequency | Purpose |
+|-----------|-----------|---------|
+| Faculty quote + link | 2-3/week | Drive traffic to Encyclopaedia |
+| Apocalypso risk update | 1-2/week | Topical hook, shareable |
+| Build-in-public | 1-2/week | Founder brand, transparency |
+| Encyclopaedia excerpt | 1/week | Long-form engagement |
+| Community spotlight | 1/week | Social proof |
+
+Growth targets: 500 → 2K followers in 6 months, 5K by Month 12. Focus on engagement rate (>3%) not vanity followers.
+
+### Channel 3: Email Marketing
+
+**Tool:** Buttondown (free < 100 subs) → Loops ($29/mo) at scale
+
+**List building tactics:**
+- Email gate after 3rd Faculty conversation ("Save your conversation history — enter email")
+- Footer CTA on every Encyclopaedia entry ("Get the weekly reading list")
+- Lead magnets: "The Encyclopaedia Reading Guide" (PDF), "Ask the Faculty" sample pack
+- Convention QR codes → email capture
+
+**Email sequences:**
+
+| Sequence | Trigger | Emails | Purpose | Target Metric |
+|----------|---------|--------|---------|--------------|
+| Welcome | Signup | 5 over 10 days | Introduce ecosystem, demonstrate value | 40% open rate |
+| Activation | No Faculty chat after signup | 3 over 7 days | Get first conversation | 20% activation |
+| Conversion | Active free user, day 14+ | 4 over 14 days | Convert to $49/mo | 2-3% conversion |
+| Onboarding | New paid member | 3 over 7 days | Set up Sam, browse courses | Reduce early churn |
+| iNQ Upsell | Member, day 30+ | 2 emails | Add iNQ Cards $20/mo | 10% upsell |
+| Winback | Churned member | 3 over 21 days | Re-engage with new content | 5% reactivation |
+| Weekly digest | All subscribers | 1/week, ongoing | Highlights, new entries, risk updates | 30% open rate |
+
+**Email costs:**
+- Months 1-4: Free (< 100 subscribers)
+- Months 5-12: $29/mo (Loops basic)
+- Year 2: $79/mo (5K+ list, advanced automation)
+
+### Channel 4: Crowdfunding
+
+**Atlas Classic Founding Cohort (Q2 2026)**
+- Platform: Open Collective + castalia.institute pre-order page
+- Goal: 300 units at $99 = $29,700
+- Marketing cost: $0 (email list + organic social)
+- Launch timeline: 4-week ramp (tease → early access → public → close)
+- Success metric: 300 units in 8 weeks
+
+**iNQ Cards Genesis Deck (Q3 2026)**
+- Platform: Shopify + email
+- Goal: 100 subscribers at $20/mo = $2,000/mo recurring
+- Marketing cost: $0
+- Launch: Founding subscriber discount (first 50 get bonus NFC card)
+
+**TerrAIn (Q1 2027)**
+- Platform: Kickstarter (built-in STEM audience)
+- Goal: 50 Home Kits + 10 Research Kits = $50-70K
+- Marketing cost: Platform fees (~8-10%)
+- Leverage: NVIDIA Inception press, maker community
+
+### Channel 5: Conventions & Events
+
+**Year 1: 2-3 homeschool conventions ($1,000-1,500)**
+
+| Convention | Location | Timing | Cost | Expected |
+|-----------|----------|--------|------|----------|
+| Great Homeschool Convention | Regional (nearest) | Spring | $300-500 | 50 emails, 10 members |
+| THSC or FPEA | Texas or Florida | Summer | $500-800 | 80 emails, 20 members |
+
+**Booth setup:**
+- Atlas Classic demo device (1 prototype)
+- iNQ Cards sample packs (100 at ~$4 each = $400)
+- QR code → free AI Faculty conversation
+- Encyclopaedia printed excerpt booklets (50 at ~$3 each = $150)
+- Email signup iPad
+
+**Year 2: 4-6 conventions + NVIDIA GTC + maker faires ($3,000-4,000)**
+
+### Channel 6: Podcast Guest Appearances ($0)
+
+Target: 1-2 appearances per month starting Month 3
+
+| Podcast Category | Examples | Pitch Angle |
+|-----------------|----------|------------|
+| Homeschool | Read-Aloud Revival, Brave Writer | "A 13-volume encyclopaedia for homeschool curriculum" |
+| Philosophy/Intellectual | Philosophize This!, Partially Examined Life | "What if you could have a conversation with Aristotle?" |
+| EdTech | EdSurge, EdTech Insiders | "Building an education ecosystem as a solo founder" |
+| AI/Technology | Practically AI, Machine Learning Street Talk | "10,000 AI personas: beyond the generic chatbot" |
+| Indie maker | Indie Hackers, My First Million | "Bootstrapping physical + digital products with AI" |
+
+### Channel 7: Paid Acquisition (Year 2+)
+
+**Google Ads — Start Month 15, $1,000/mo**
+
+| Campaign | Keywords | CPC Est. | Landing Page | Conversion Target |
+|----------|----------|----------|-------------|-------------------|
+| Educational queries | "homeschool curriculum online" | $2-4 | Encyclopaedia entry | Email signup |
+| Subject-specific | "philosophy course online" | $1.50-3 | Faculty conversation | Email signup |
+| Alternative seekers | "Great Courses alternative" | $3-5 | Comparison page | Email signup |
+| Encyclopaedia | "online encyclopedia" | $1-2 | Homepage | Browse → email |
+
+Expected CPA: $30-60 per paid member. LTV: $735 (15mo × $49). LTV:CAC: 12-24×.
+
+**Meta Ads — Start Month 18, $500/mo**
+
+Targeting: Parents 30-50, interests: homeschooling, classical education, Charlotte Mason
+Creative: Atlas hardware photos, iNQ Card art, Encyclopaedia excerpt carousels
+Expected CPA: $50-80 per paid member.
+
+**Decision triggers:**
+- Start Google Ads when MRR > $5K/mo AND organic conversion is proven
+- Start Meta Ads when Google Ads CPA < $60 for 3 months
+- Kill any channel where CPA > LTV/3 for 2 consecutive months
+
+### Channel 8: Affiliate Program (Year 2)
+
+**Structure:** 15% commission on first 3 months of membership ($22 total per referral)
+
+**Target affiliates:**
+- Homeschool curriculum bloggers (Cathy Duffy, Hip Homeschool Moms, The Homeschool Mom)
+- Education YouTubers
+- Classical education influencers
+- Newsletter operators in education space
+
+**Onboarding:** Custom referral link, free Atlas demo device, iNQ Cards sample, 1-pager about Castalia
+
+---
+
+## Content Calendar
+
+### Weekly Cadence
+
+| Day | Content | Channel | Purpose |
+|-----|---------|---------|---------|
+| Monday | New Encyclopaedia entry highlight | Social + Email | Drive traffic |
+| Tuesday | Apocalypso risk update | X/Threads | Topical hook |
+| Wednesday | AI Faculty conversation excerpt | Social + Blog | Demonstrate value |
+| Thursday | Build-in-public update | X | Founder brand |
+| Friday | Homeschool resource share | Facebook + Reddit | Community value |
+| Saturday | Deep-read thread (Encyclopaedia) | X | Engagement |
+| Sunday | Planning + scheduling for next week | Internal | Operations |
+
+### Monthly Content Themes
+
+| Month | Theme | Tied to |
+|-------|-------|---------|
+| 1 | "Meet the Faculty" — introduce 4 key authors | Launch/awareness |
+| 2 | "The Great Questions" — one from each volume | Encyclopaedia depth |
+| 3 | "Build-in-Public" — Atlas prototype progress | Crowdfunding warm-up |
+| 4 | "Founding Cohort" — Atlas crowdfunding launch | Revenue |
+| 5 | "Ask Anything" — Faculty conversation demos | AI Faculty showcase |
+| 6 | "Summer Reading" — Encyclopaedia reading lists | Seasonal relevance |
+| 7 | "Knowledge You Can Hold" — iNQ Cards launch | New product |
+| 8 | "Back to (Home)School" — curriculum positioning | Seasonal relevance |
+| 9 | "Atlas Arrives" — unboxing, first impressions | Social proof |
+| 10 | "The Risk Report" — Apocalypso year-in-review | Topical authority |
+| 11 | "Gift Guide" — iNQ Cards, Encyclopaedia for holidays | Revenue push |
+| 12 | "Year One" — metrics, milestones, what's next | Transparency |
+
+---
+
+## Budget Detail
+
+### Year 1: $2,940 + $1,000 reserve = $3,940
+
+| Category | Monthly | Annual | Notes |
+|----------|---------|--------|-------|
+| Email tool (Buttondown → Loops) | $0-29 | $290 | Free until ~100 subs |
+| Domain/DNS | — | $50 | Already have most domains |
+| Convention booths (2-3 events) | — | $1,000 | $300-500 per booth |
+| Convention materials (samples, prints) | — | $600 | iNQ samples, booklets |
+| Content tools (Canva free, screen recording) | $0 | $0 | Use free tiers |
+| Shipping samples (affiliates, reviewers) | — | $200 | 20 sample kits |
+| Miscellaneous | — | $800 | Buffer |
+| **Total (excl. reserve)** | | **$2,940** | |
+| Reserve | — | $1,000 | Unexpected costs |
+
+**Marketing spend as % of Year 1 revenue ($114K): 2.9%**
+
+### Year 2: $18,000-24,000
+
+| Category | Monthly | Annual | Notes |
+|----------|---------|--------|-------|
+| Email marketing (Loops) | $79 | $948 | 5K+ list, full automation |
+| Google Ads | $1,000 | $12,000 | Starts Month 15 |
+| Meta Ads | $500 | $3,000 | Starts Month 18 (partial year) |
+| Conventions (4-6 events) | — | $3,000 | Booth + materials |
+| Affiliate commissions | Variable | ~$2,000 | 15% × 3mo per referral |
+| Content tools (Canva Pro, video) | $30 | $360 | Social media production |
+| Misc + reserve | — | $1,500 | Buffer |
+| **Total** | | **$22,808** | |
+
+**Marketing spend as % of Year 2 revenue ($910K): 2.5%**
+
+### Year 3: $50,000-80,000
+
+| Category | Annual Est. | Notes |
+|----------|-------------|-------|
+| Google Ads | $30,000 | Scale proven campaigns |
+| Meta Ads | $12,000 | Scale creative tests |
+| Conventions (8-10 events) | $6,000 | National circuit |
+| Affiliate commissions | $8,000 | 30+ affiliates |
+| Email + tools | $3,000 | Advanced automation |
+| Paid social amplification | $5,000 | Boost top organic posts |
+| Content production | $3,000 | Video, photography |
+| Misc + reserve | $3,000 | |
+| **Total** | **$70,000** | |
+
+**Marketing spend as % of Year 3 revenue ($3.4M): 2.1%**
+
+---
+
+## Measurement & KPIs
+
+### North Star Metric
+
+**Monthly Recurring Revenue (MRR)** = (Paid members × $49) + (iNQ Card subscribers × $20)
+
+### Funnel Metrics (Weekly Review)
+
+| Metric | Tool | Month 6 Target | Month 12 Target |
+|--------|------|----------------|-----------------|
+| Encyclopaedia unique visitors/mo | Plausible/GA | 5,000 | 15,000 |
+| Email list size | Email tool | 2,000 | 5,000 |
+| Email open rate | Email tool | 40% | 35% |
+| Free users with Faculty chat | Supabase | 1,000 | 3,000 |
+| Faculty chat → email capture | Supabase | 30% | 30% |
+| Email → paid member | Email + Stripe | 2% | 2.5% |
+| Monthly member churn | Stripe | < 5% | < 5% |
+| MRR | Stripe | $3,000 | $12,000 |
+
+### Channel Metrics (Monthly Review)
+
+| Channel | Metric | Month 12 Target |
+|---------|--------|-----------------|
+| SEO | Organic sessions/mo | 10,000 |
+| Social | Referral traffic + followers | 5K followers |
+| Email | Monthly sends → conversions | 100 conversions/mo |
+| Crowdfunding | Units sold | 300 Atlas, 100 iNQ |
+| Conventions | Email signups per event | 50+ |
+| Podcasts | UTM-attributed signups | 100+/yr |
+
+### Reporting Cadence
+
+- **Daily:** Social engagement, new signups, new members
+- **Weekly:** Funnel metrics, email performance, active conversations
+- **Monthly:** Channel ROI, MRR, churn rate, CAC by channel
+- **Quarterly:** Strategy review, budget reallocation, channel kill/scale decisions
+
+---
+
+## Financial Projections
+
+### Revenue Model
+
+| Engine | Products | Margin | Year 1 | Year 2 | Year 3 |
+|--------|----------|--------|--------|--------|--------|
+| Memberships | $49/mo | ~90% | $50K | $440K | $1.8M |
+| iNQ Cards | $20/mo | ~80% | $12K | $130K | $500K |
+| Hardware | Atlas, TerrAIn | 50-70% | $37K | $280K | $900K |
+| Publications | Digital + print + book | ~90% | $15K | $60K | $150K |
+| Credentials | Magisteria | ~90% | $0 | — | $50K |
+| Institutional | $499/mo (50 seats) | ~60% | $0 | — | TBD |
+| **Total** | | **~80%** | **$114K** | **$910K** | **$3.4M** |
+
+### Key Assumptions
+
+| Assumption | Value | Sensitivity |
+|-----------|-------|------------|
+| Membership monthly churn | 5% | If 10%: Year 3 drops from $1.8M to ~$1.2M |
+| Free → paid conversion | 2% | If 1%: need 2× traffic for same revenue |
+| SEO monthly reader growth | +15% MoM | If +8%: Year 1 hits 8K not 15K readers |
+| Atlas crowdfunding sell-through | 100% of 300 | If 60%: $18K not $30K |
+| iNQ Card retention | 8 months avg | If 4 months: revenue halves |
+
+### Year 2 Growth Drivers ($114K → $910K)
+
+1. **SEO compounding** — 483+ entries indexed, long-tail queries ranking, domain authority building
+2. **Atlas word-of-mouth** — 300 founding families as evangelists, Atlas DS crowdfunding
+3. **iNQ Cards community** — Physical sharing (unboxing, collections) drives organic referral
+4. **First institutional deals** — 3-5 contracts at $499/mo with libraries/co-ops
+5. **Paid acquisition (small)** — Google Ads at proven CPA, layered onto organic base
+
+---
+
+## Competitive Positioning
+
+### What We Say (Messaging)
+
+| Audience | Message | Proof Point |
+|----------|---------|-------------|
+| Homeschool parents | "A complete curriculum built around history's greatest minds" | 13 volumes, 483 entries, adult + children's editions |
+| Lifelong learners | "Ask Darwin about evolution — then read the entry he wrote for you" | 10,000 AI Faculty, Socratic dialogue |
+| STEM educators | "Robots that learn to dig — so do your students" | TerrAIn platform, NVIDIA Inception |
+| Institutions | "Encyclopedia access + AI tutors + credentials for your students" | 50-seat institutional tier, Inquiry Appliance |
+
+### Competitive Matrix
 
 | Factor | Khan Academy | Brilliant | Great Courses | Kiwi Crate | **Castalia** |
 |---|---|---|---|---|---|
@@ -333,110 +503,41 @@ Each product feeds every other:
 | **Content** | Video lessons | Interactive problems | Filmed lectures | STEM kits | **13-vol Encyclopaedia** |
 | **AI** | Khanmigo ($4/mo) | None | None | None | **10K faculty personas** |
 | **Hardware** | None | None | None | Activity kits | **Atlas devices + TerrAIn** |
-| **Physical artifacts** | None | None | None | Monthly kit | **iNQ Cards + medals** |
+| **Physical** | None | None | None | Monthly kit | **iNQ Cards + medals** |
 | **Credentials** | Mastery points | None | None | None | **5-rank Magisteria** |
-| **Audience** | K-12 students | Adults (STEM) | Adults | Kids 3-16 | **Ages 5-105** |
 
-**Where competitors are stronger:**
-- Khan Academy: massive video library (20K+ videos), free access, brand trust
-- Brilliant: polished interactive exercises, better at STEM skill-building
-- Great Courses: high production quality, celebrity professors
-- Kiwi Crate: proven physical-kit subscription model, established logistics
+**Where competitors are stronger:** Khan's 20K+ video library and brand trust. Brilliant's interactive STEM exercises. Great Courses' production quality. Kiwi Crate's proven physical-kit logistics.
 
-**Why competitors can't replicate Castalia's moat:**
-1. The Encyclopaedia is a published work — 483+ entries with editorial voice, not generated-on-demand
-2. Hardware + physical artifacts require supply chain, not just code
-3. 10,000 historically accurate AI personas, not a generic LLM wrapper
-4. Integrated ecosystem where 7 products cross-sell — no competitor spans publications + hardware + robotics + AI + credentials
-
----
-
-## User Personas
-
-### Maria Chen — Homeschool Parent
-**Age:** 38 · **Location:** Suburban Texas · **Philosophy:** Classical education
-**Need:** Structured curriculum that adapts to her 3 children (ages 6, 10, 14)
-**Discovery:** Searches "Charlotte Mason science curriculum" → finds Encyclopaedia entry "Darwin on Adaptation" → bookmarks → browses more entries → tries AI faculty conversation
-**Products:** Encyclopaedia (curriculum spine), AI Faculty (daily tutoring), Atlas Classic (dedicated learning station), iNQ Cards (engagement), Magisteria (progress tracking)
-**Acquisition:** Google search → Encyclopaedia free web → email capture → Membership → Atlas pre-order
-
-### James Okonkwo — Lifelong Learner
-**Age:** 62 · **Location:** London
-**Need:** Intellectual stimulation and structured learning after retirement; frustrated that Great Courses Plus removed his favorite lectures
-**Discovery:** Google "Bergson consciousness philosophy" → Encyclopaedia entry → AI faculty conversation with Bergson → hooked
-**Products:** Encyclopaedia (reading), AI Faculty (conversation partner), iNQ Cards (physical collection), Magisteria (personal achievement)
-**Acquisition:** Google search → Encyclopaedia entry → Faculty conversation → Membership → iNQ subscription
-
-### Rachel Torres — STEM Educator
-**Age:** 29 · **Location:** Portland
-**Need:** Engaging robotics curriculum for after-school program; current kits are too simplistic
-**Discovery:** NVIDIA GTC demo of TerrAIn → visits terrain.castalia.institute → watches fleet video → Home Kit inquiry
-**Products:** TerrAIn Home Kit (hands-on robotics), Atlas DS (student controllers), Courses (structured lessons), Magisteria (student credentials)
-**Acquisition:** NVIDIA GTC → TerrAIn demo → Home Kit purchase → Institutional inquiry
-
-### Alex Kim — Independent Learner / Autodidact
-**Age:** 24 · **Location:** Seoul
-**Need:** Self-directed learning with tangible progress markers; wants proof of knowledge without a degree
-**Discovery:** X/Twitter thread about AI extinction risk → clicks Apocalypso dashboard link → explores risk modules → reads Oppenheimer chapter → tries AI faculty
-**Products:** Apocalypso (entry point from news), AI Faculty (deep dives), Magisteria (credential ladder), iNQ Cards (collection)
-**Acquisition:** Twitter/X Apocalypso risk update → Dashboard → Faculty conversation → Membership
-
----
-
-## Pricing Summary (Canonical Reference)
-
-### Service Tiers
-| Tier | Price | Includes |
-|------|-------|----------|
-| Free | $0 | 5 conversations/day, Encyclopaedia web, Apocalypso dashboard |
-| Membership | $49/mo | Unlimited conversations, Sam companion, courses, Magisteria |
-| Institution | $499/mo | Up to 50 seats, Encyclopaedia access, Inquiry Appliance license, Magisteria admin |
-
-**Pricing justification:** $49/mo is 2× Brilliant ($24) and Great Courses ($20). The premium is justified by: physical artifacts (iNQ Cards not included in membership), 10,000 AI personas (not a single chatbot), published Encyclopaedia (not generated-on-demand), and Magisteria credential progression. Target customer: $100K+ household income, already spending $500+/yr on educational resources.
-
-### Publications
-| Product | Price |
-|---------|-------|
-| Encyclopaedia (web) | Free |
-| Encyclopaedia (digital) | $9.99/volume |
-| Encyclopaedia (hardbound) | $29–49/volume |
-| Apocalypso book (print) | $19.99 |
-
-### Hardware
-| Product | Founding Price | MSRP |
-|---------|----------------|------|
-| Atlas Classic (Ægis) | $99 | $149 |
-| Atlas DS | At cost | TBD |
-| Atlas TriCorder | At cost | TBD |
-| Atlas Sense | At cost | TBD |
-| Inquiry Appliance | — | $500 |
-| TerrAIn Home Kit | — | $599–899 |
-| TerrAIn Research Kit | — | $2,000–4,000 |
-| TerrAIn individual vehicles | — | $55–85 each |
-
-### Physical Subscriptions & Credentials
-| Product | Price |
-|---------|-------|
-| iNQ Cards (monthly subscription) | $20/mo (12 cards) |
-| iNQ Cards NFC Collector Deck | $40–60 (one-time) |
-| iNQ Cards Bamboo Edition | $40–80 (one-time) |
-| Magisteria Core Program | ~$1,200 |
-| Magisteria Specialization | $400–600 each |
+**What no one else has:** A published 13-volume encyclopaedia, 10,000 historically accurate AI personas, purpose-built learning hardware, and physical artifact subscriptions — all in one ecosystem. This integration is the moat.
 
 ---
 
 ## Risk Mitigation
 
-| Risk | Mitigation |
-|------|-----------|
-| Solo founder | AI-augmented workflow; seeking Content Lead, Community Lead, Hardware Engineer |
-| Hardware manufacturing | Start with crowdfunding MOQs (300 units); partner with Shenzhen manufacturers |
-| Content quality | Encyclopaedia review cycle (Candlemas); Canon + Marginalia structure |
-| Market education | Lead with free content (Encyclopaedia web, Apocalypso); demonstrate value before monetizing |
-| Platform reliability | Supabase + Next.js; Atlas devices as offline fallback |
-| Membership churn | 5% monthly churn assumed; Magisteria progression + iNQ Card engagement as retention levers. If churn is 10%, Year 3 revenue drops ~30% |
-| $49/mo price resistance | Free tier removes barrier to trial; Encyclopaedia SEO brings qualified traffic (people already searching for educational content) |
-| iNQ Card fulfillment | COGS ~$3-5/pack including shipping, not < $1. Margin is ~80%, not 95%. Still strong unit economics |
+| Risk | Prob. | Impact | Mitigation | Contingency |
+|------|-------|--------|-----------|-------------|
+| SEO doesn't compound | Med | High | Publish consistently, optimize titles, build backlinks | Shift to paid social earlier |
+| Atlas crowdfunding undersells | Med | Med | Build 2K email list before launch, $99 low barrier | Reduce to 150 units |
+| $49/mo too expensive | Med | High | Free tier is generous (5 chats/day + full Encyclopaedia) | Test $29/mo or $399/yr |
+| iNQ Cards low retention | Med | Med | First 3 packs must be exceptional; collector mechanics | Switch to quarterly box |
+| Solo founder bandwidth | High | High | AI workflow, ruthless prioritization | First hire: Content Lead (Month 8-10) |
+| Homeschool community skepticism | Med | Med | Lead with free value, never sell in groups | Partner with trusted voices |
+| Convention ROI unclear | Low | Low | Track UTM per event | Drop events, shift to ads |
+
+**Decision triggers for paid marketing:**
+- Begin Google Ads when: MRR > $5K/mo AND organic CPA known AND LTV:CAC > 5:1
+- Begin Meta Ads when: Google Ads CPA < $60 for 3 consecutive months
+- Kill any channel where CPA > LTV/3 for 2 consecutive months
+
+---
+
+## Hiring Plan (Marketing-Relevant)
+
+| Role | When | Why | Cost |
+|------|------|-----|------|
+| Content Lead (Humanities PhD) | Month 8-10 | Encyclopaedia editorial velocity, social content | $60-80K |
+| Community Lead | Month 12-15 | Homeschool outreach, conventions, partnerships | $50-70K |
+| Hardware Engineer | Month 12-15 | Atlas production, TerrAIn development | $80-100K |
 
 ---
 
@@ -445,11 +546,48 @@ Each product feeds every other:
 **Daniel McShan, PhD** — Solo founder, AI-augmented build
 PhD Computational Biosciences (CU Anschutz) · 25+ years aerospace (NASA: Orion, Mars Phoenix, Stardust) · CTO Formul8.ai · VP Engineering AVS · 5 publications, 1 patent
 
-Program acceptances: NVIDIA Inception · AWS Activate ($1K) · Google Cloud for Startups ($2K)
+Programs: NVIDIA Inception · AWS Activate ($1K) · Google Cloud for Startups ($2K)
 
-Built the entire ecosystem — 7 products, 10,000 faculty, 13-volume encyclopaedia, hardware prototypes — as a solo founder using AI-augmented development (Claude, Cursor, GPT-4) on $3K in cloud credits.
+Built the entire ecosystem — 7 products, 10,000 faculty, 13-volume encyclopaedia, hardware prototypes — solo using AI-augmented development on $3K in cloud credits.
 
 ---
 
-*Castalia Institute · castalia.institute*
-*Encyclopaedia · Apocalypso · Atlas · TerrAIn · iNQ Cards · Magisteria · AI Faculty*
+## Pricing Reference (Canonical)
+
+### Service Tiers
+| Tier | Price | Includes |
+|------|-------|----------|
+| Free | $0 | 5 conversations/day, Encyclopaedia web, Apocalypso dashboard |
+| Membership | $49/mo | Unlimited conversations, Sam companion, courses, Magisteria |
+| Institution | $499/mo | Up to 50 seats, Encyclopaedia access, Inquiry Appliance license |
+
+### Publications
+| Product | Price |
+|---------|-------|
+| Encyclopaedia (web) | Free |
+| Encyclopaedia (digital) | $9.99/volume |
+| Encyclopaedia (hardbound) | $29–49/volume |
+| Apocalypso book | $19.99 |
+
+### Hardware
+| Product | Founding Price | MSRP |
+|---------|----------------|------|
+| Atlas Classic | $99 | $149 |
+| Atlas DS / TriCorder / Sense | At cost | TBD |
+| Inquiry Appliance | — | $500 |
+| TerrAIn Home Kit | — | $599–899 |
+| TerrAIn Research Kit | — | $2,000–4,000 |
+| TerrAIn individual vehicles | — | $55–85 each |
+
+### Subscriptions & Credentials
+| Product | Price |
+|---------|-------|
+| iNQ Cards | $20/mo (12 cards) |
+| NFC Collector Deck | $40–60 |
+| Bamboo Edition | $40–80 |
+| Magisteria Core Program | ~$1,200 |
+| Magisteria Specialization | $400–600 each |
+
+---
+
+*Castalia Institute · castalia.institute · custodian@castalia.institute*
