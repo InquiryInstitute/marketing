@@ -40,6 +40,7 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 | Commonplace | commonplace.castalia.institute | LIVE | Engagement engine. AI Faculty read, annotate, and reflect — Plato's marginalia on Lewis Carroll, Darwin's notes on Lucretius. Faculty thinking made visible |
 | Feed | feed.castalia.institute | LIVE | Social proof. ActivityPub/Fediverse social feed surfaces faculty activity, user highlights, and community discussion. Public timeline — no login required |
 | Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Risk updates drive topical social sharing |
+| Singh | singh.castalia.institute | LIVE | Lecture engine. Khan Academy + MIT OCW delivered by AI Faculty. Users can interrupt, ask questions, debate. Turns passive video into interactive dialogue |
 | AI Faculty | castalia.institute | LIVE | Demo engine. 2-minute conversation sells better than any ad |
 | The Inquirer | inquirer.inquiry.institute | LIVE | Authority. Quarterly journal adds publishing credibility |
 
@@ -78,15 +79,26 @@ Faculty conversation (demo) → mentions a book → user opens it in Bibliotech
 
 iNQ Card (physical) → QR links to Encyclopaedia entry → entry links to Bibliotech shelf
     → reader becomes member → Commonplace notes become personal study tool
+
+Singh lecture (Khan/MIT content) → delivered by Euler, not a video
+    → student interrupts with a question → faculty answers in character
+        → student shares "I just argued with Gauss about calculus" → viral moment
 ```
 
-**Key insight:** Bibliotech, Commonplace, and Feed turn the Encyclopaedia from a static reference into a living intellectual community. Faculty don't just teach — they read, annotate, argue, and reflect in public. That activity is content, and content is marketing.
+**Key insight:** Bibliotech, Commonplace, Feed, and Singh turn the Encyclopaedia from a static reference into a living intellectual community. Faculty don't just teach — they read, annotate, argue, lecture, and reflect in public. That activity is content, and content is marketing.
 
 **Bibliotech-specific flywheel:**
 - 76,000+ texts across 14 source archives = long-tail SEO on every title/author
 - 177 faculty bookshelves = curated "what to read" lists (high-value content type)
 - Faculty marginalia = unique content no one else has (Plato's notes on Carroll, Hypatia's notes on Euclid)
 - Reader features (TTS, translation, AI assistant) = product demo built into every reading session
+
+**Singh-specific flywheel:**
+- Khan Academy + MIT OCW = thousands of lectures covering math, science, CS, humanities, engineering
+- AI Faculty delivery = Gauss teaches algebra, Darwin teaches biology, Turing teaches CS
+- Interruptible = the lecture pauses when you speak; the faculty answers your question in context, then resumes
+- Every "I just debated Einstein about relativity" moment is a shareable story that markets itself
+- SEO: "Khan Academy calculus taught by Euler", "MIT physics delivered by Feynman" — unique long-tail queries
 
 ---
 
@@ -251,6 +263,7 @@ iNQ Card (physical) → QR links to Encyclopaedia entry → entry links to Bibli
 | Apocalypso-specific | "existential risk dashboard", "civilization risk tracker" | Very low | Low | Rankable now |
 | Bibliotech / primary source | "Tao Te Ching full text", "Plato Republic online", "Rumi poems" | Medium | Very high | Rankable Month 3+ |
 | Faculty marginalia | "Plato on Lewis Carroll", "Darwin reading notes" | Very low | Low but viral | Unique content — no competition |
+| Singh / interactive lectures | "Khan Academy with AI tutor", "MIT OCW interactive", "learn calculus from Euler" | Low | Medium | Unique — no direct competitor |
 | Competitor alternatives | "Great Courses alternative", "Brilliant alternative" | Medium-high | Medium | Rankable Year 2 |
 
 **Expected SEO timeline:**

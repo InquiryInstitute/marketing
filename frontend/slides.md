@@ -224,6 +224,7 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 |---------|------|----------------|-------|
 | **SEO** (Encyclopaedia + Bibliotech) | $0 | Primary driver — 483+ entries + 76K texts indexed | Phase 1 |
 | **Bibliotech / Commonplace / Feed** | $0 | Faculty marginalia + social proof on Fediverse | Phase 1 |
+| **Singh** (interactive lectures) | $0 | Khan Academy + MIT OCW delivered by AI Faculty | Phase 1 |
 | **Organic social** (X, Reddit, Facebook) | $0 | Community seeding, 5-10 posts/week | Phase 1 |
 | **Email marketing** (Buttondown/Loops) | $0-29/mo | Nurture + conversion, 2-3 emails/week | Phase 1 |
 | **Homeschool community outreach** | $0-200/mo | Direct access to target segment | Phase 1 |
@@ -260,6 +261,9 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 **Faculty marginalia** (unique — no competition):
 <br>"Plato on Lewis Carroll", "Darwin reading notes", "Hypatia on Euclid"
+
+**Singh / interactive lectures:**
+<br>"Khan Academy with AI tutor", "MIT OCW interactive", "learn calculus from Euler"
 
 </div>
 <div>
@@ -779,6 +783,7 @@ Q4 2026 (Months 10-12): SCALE PREP
 | **Bibliotech** | SEO (76K texts), Social | $0 | "76,000 texts. 177 faculty libraries. Read with AI." | Browse the Shelf |
 | **Commonplace** | Social, Feed, Email | $0 | "See Plato's marginalia on Lewis Carroll" | Read faculty notes |
 | **Feed** | Fediverse/ActivityPub | $0 | "Follow the conversation" | Public timeline |
+| **Singh** | SEO, Social, YouTube | $0 | "Khan Academy, taught by Gauss. Interrupt him." | Start a lecture |
 | **AI Faculty** | Social demos, Podcast | $0 | "Ask Aristotle anything — and get his answer" | Try 5 free chats |
 | **Membership** | Email sequence, Retargeting | $0-29/mo | "Unlock unlimited conversations + courses" | Start free trial |
 | **Atlas Field Tablet** | Crowdfunding, Conventions | $500 | "A learning device, not a distraction device" | Pre-order $99 |
