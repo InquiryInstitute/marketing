@@ -223,7 +223,7 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 | Channel | Cost | Expected Impact | Phase |
 |---------|------|----------------|-------|
 | **SEO** (Encyclopaedia + Bibliotech) | $0 | Primary driver — 483+ entries + 76K texts indexed | Phase 1 |
-| **Bibliotech / Commonplace / Feed** | $0 | Faculty marginalia + social proof on Fediverse | Phase 1 |
+| **Bibliotech / Commonplace / Feed + News** | $0 | Faculty marginalia + social proof + topical news takes on Fediverse | Phase 1 |
 | **Singh** (interactive lectures) | $0 | Khan Academy + MIT OCW delivered by AI Faculty | Phase 1 |
 | **Symposia** (4 social formats) | $0 | Symposia, Faculty Club, Salons, Debates — faculty interact with each other | Phase 1 |
 | **Map of Inquiry** | $0 | Hex-grid curriculum map — gamified progression, shareable screenshots | Phase 1-2 |
@@ -784,7 +784,7 @@ Q4 2026 (Months 10-12): SCALE PREP
 | **Encyclopaedia** | SEO, Social, Email | $0 | "Read what Darwin actually wrote about adaptation" | Free web access |
 | **Bibliotech** | SEO (76K texts), Social | $0 | "76,000 texts. 177 faculty libraries. Read with AI." | Browse the Shelf |
 | **Commonplace** | Social, Feed, Email | $0 | "See Plato's marginalia on Lewis Carroll" | Read faculty notes |
-| **Feed** | Fediverse/ActivityPub | $0 | "Follow the conversation" | Public timeline |
+| **Feed + News** | Fediverse/ActivityPub | $0 | "Turing just posted his take on AI regulation" | Public timeline |
 | **Singh** | SEO, Social, YouTube | $0 | "Khan Academy, taught by Gauss. Interrupt him." | Start a lecture |
 | **Symposia** | Social, YouTube, Feed | $0 | "Nietzsche crashed a Buddhist symposium" | Watch a symposium |
 | **Map of Inquiry** | Social, Gamification | $0 | "I've explored 40% of human knowledge" | Start exploring |
