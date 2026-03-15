@@ -43,6 +43,7 @@ jobs:
           echo "VITE_SUPABASE_URL=${{ vars.SUPABASE_URL }}" >> .env
           echo "VITE_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }}" >> .env
           npm run build
+          npm run build:pitch
 
       - name: Copy Gantt charts to dist
         run: |

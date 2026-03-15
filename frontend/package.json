@@ -4,11 +4,13 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build",
+    "build:pitch": "slidev build slides-corporate.md --base /pitch/ --out dist/pitch",
     "export": "slidev export"
   },
   "devDependencies": {
     "@slidev/cli": "^52.14.1",
-    "@slidev/theme-seriph": "^0.25.0"
+    "@slidev/theme-seriph": "^0.25.0",
+    "playwright-chromium": "^1.58.2"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.1"
