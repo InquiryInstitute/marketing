@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Castalia Engineering Roadmap</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0f14;
+  --surface: #161b24;
+  --border: #2a3040;
+  --text: #c8cdd5;
+  --heading: #e8ecf2;
+  --amber: #d4a853;
+  --blue: #5b9cf5;
+  --green: #4eca8b;
+  --red: #e5634d;
+  --purple: #a47de8;
+  --rose: #e86b8a;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  min-height: 100vh;
+  padding: 2rem;
+}
+h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--amber);
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+.subtitle {
+  text-align: center;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+.chart-container {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+.phase-title {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--heading);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.phase-title span {
+  color: var(--amber);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+.mermaid {
+  width: 100%;
+}
+.mermaid svg {
+  max-width: 100%;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.stat-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--amber);
+}
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text);
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text);
+  opacity: 0.4;
+  margin-top: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+</style>
+</head>
+<body>
+
+<h1>Engineering Roadmap</h1>
+<p class="subtitle">Castalia Institute — 12-month technical plan correlated to marketing milestones</p>
+
+<div class="stats">
+  <div class="stat"><div class="stat-value">53</div><div class="stat-label">Issues</div></div>
+  <div class="stat"><div class="stat-value">~1,170h</div><div class="stat-label">Total Effort</div></div>
+  <div class="stat"><div class="stat-value">7</div><div class="stat-label">Critical Path</div></div>
+  <div class="stat"><div class="stat-value">12</div><div class="stat-label">AI Agents</div></div>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#e5634d"></div>P0 Critical Path</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#5b9cf5"></div>Infrastructure</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#a47de8"></div>Agent</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4eca8b"></div>Content / Product</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#d4a853"></div>Hardware</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#e86b8a"></div>Revenue</div>
+</div>
+
+<div class="chart-container">
+  <div class="phase-title">Phase 1: Foundation <span>Months 1–3 · ~300h</span></div>
+  <pre class="mermaid">
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+    tickInterval 1week
+
+    section Month 1 — Infra
+    XML sitemaps to Search Console          :crit, p0_sitemap, 2026-04-01, 2d
+    Plausible analytics on all subdomains   :crit, p0_plaus, 2026-04-01, 4d
+    Stripe billing ($49 + $20)              :crit, p0_stripe, 2026-04-03, 8d
+    Email capture (Buttondown)              :crit, p0_email, 2026-04-07, 4d
+    5-email welcome sequence                :p1_welcome, 2026-04-11, 6d
+    UTM tracking templates                  :p1_utm, 2026-04-07, 2d
+    OG image generation                     :p1_og, 2026-04-14, 6d
+    Fix dead links audit                    :p1_links, 2026-04-14, 4d
+
+    section Month 1 — Agents
+    Deploy News Agent                       :p1_news, 2026-04-07, 14d
+    Deploy SEO Agent                        :p1_seo, 2026-04-14, 12d
+    Deploy Analytics Agent                  :p1_analytics, 2026-04-21, 12d
+
+    section Month 2 — Depth
+    Bibliotech reader MVP                   :crit, p0_biblio, 2026-05-01, 21d
+    Ingest 10K texts (Gutenberg + IA)       :crit, p0_ingest1, 2026-05-04, 14d
+    Faculty chat → email capture flow       :p1_chatcap, 2026-05-01, 4d
+    Related Faculty + entries cross-links   :p1_xlink, 2026-05-11, 8d
+
+    section Month 2 — Agents
+    Deploy Social Content Agent             :p1_social, 2026-05-04, 14d
+    Deploy Email Agent                      :p1_emailag, 2026-05-11, 12d
+    Deploy Commonplace Agent                :p1_common, 2026-05-18, 12d
+
+    section Month 3 — Core Product
+    Singh lecture player MVP                :crit, p0_singh, 2026-06-01, 21d
+    Ingest 50 Khan/MIT OCW transcripts      :p1_ingest2, 2026-06-04, 12d
+    Atlas pre-order "Notify Me" page        :p1_atlas_notify, 2026-06-08, 4d
+    Conversion email sequence (day 14+)     :p1_conv, 2026-06-15, 6d
+    Review M1-M3 funnel data + tune agents  :p1_review, 2026-06-22, 8d
+
+    section Month 3 — Agents
+    Deploy Pinterest Agent                  :p1_pinterest, 2026-06-01, 12d
+    Deploy Singh Lecture Builder Agent      :p1_singhag, 2026-06-08, 14d
+    Deploy Book Club Agent                  :p1_bookclub, 2026-06-15, 12d
+  </pre>
+</div>
+
+<div class="chart-container">
+  <div class="phase-title">Phase 2: Growth <span>Months 4–6 · ~320h</span></div>
+  <pre class="mermaid">
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+    tickInterval 1week
+
+    section Month 4 — Content Velocity
+    Encyclopaedia Publisher Agent           :p2_encyc, 2026-07-01, 18d
+    Symposia Generator Agent                :p2_symp, 2026-07-07, 18d
+    Homeschool Plan Agent                   :p2_hsplan, 2026-07-01, 14d
+    Bibliotech marginalia + TTS + AI sidebar:p2_biblio2, 2026-07-14, 21d
+    Ingest Bibliotech to 50K+               :p2_ingest3, 2026-07-14, 12d
+    Faculty conversation shareable link     :p2_share, 2026-07-21, 8d
+
+    section Month 5 — Crowdfunding Prep
+    Atlas BOM + manufacturer sourcing       :crit, p0_bom, 2026-08-01, 28d
+    Atlas pre-order checkout (Stripe)       :p2_checkout, 2026-08-04, 8d
+    iNQ Cards: design deck + print vendor   :crit, p0_cards, 2026-08-01, 21d
+    iNQ Cards subscription flow ($20/mo)    :p2_cardsub, 2026-08-18, 8d
+    Stripe webhook → entitlement system     :crit, p0_entitle, 2026-08-11, 12d
+
+    section Month 6 — Launch
+    Atlas crowdfunding live                 :p2_launch, 2026-09-01, 14d
+    iNQ Cards Genesis Deck first print run  :p2_cardprint, 2026-09-01, 18d
+    Magisteria progression MVP              :p2_mag, 2026-09-04, 21d
+    Complete Bibliotech to 76K              :p2_biblio76, 2026-09-08, 8d
+    Agent stack quality refinement          :p2_agentqc, 2026-09-15, 12d
+    Metrics dashboard (build-in-public)     :p2_dash, 2026-09-18, 8d
+  </pre>
+</div>
+
+<div class="chart-container">
+  <div class="phase-title">Phase 3: Scale <span>Months 7–12 · ~550h</span></div>
+  <pre class="mermaid">
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b
+    tickInterval 2week
+
+    section M7-8 — Video + Hardware
+    Ask the Faculty video export pipeline   :p3_video, 2026-10-01, 14d
+    Talking Bust salon mode                 :p3_salon, 2026-10-08, 21d
+    Atlas firmware + kiosk + offline cache  :crit, p3_firmware, 2026-10-01, 42d
+    iNQ Cards NFC edition prototype         :p3_nfc, 2026-10-15, 18d
+    Encyclopaedia dramatic reading pipeline :p3_dramatic, 2026-11-01, 12d
+
+    section M9-10 — Institutional
+    Inquiry Appliance local LLM MVP         :crit, p3_appliance, 2026-12-01, 42d
+    Institutional admin dashboard           :p3_admin, 2026-12-08, 21d
+    Magisteria Apprentice → Adept (6+ creds):p3_mag2, 2026-12-15, 28d
+    Beatrice grader MVP                     :p3_beatrice, 2027-01-01, 21d
+    Atlas ship 300 units to founders        :crit, p3_ship, 2026-12-01, 28d
+
+    section M11-12 — Year 2 Prep
+    Google Ads landing pages                :p3_adpages, 2027-02-01, 14d
+    Affiliate tracking system               :p3_affiliate, 2027-02-01, 14d
+    TerrAIn mechanical design + prototype   :p3_terrain, 2027-01-15, 42d
+    Feed (ActivityPub/Fediverse)            :p3_feed, 2027-02-01, 21d
+    Map of Inquiry hex-grid visualization   :p3_map, 2027-02-15, 18d
+    Professional/corporate landing page     :p3_pro, 2027-02-08, 14d
+    Architecture review: scaling + CDN      :p3_arch, 2027-03-01, 14d
+  </pre>
+</div>
+
+<footer>Castalia Institute · TECH_ROADMAP.md · Generated 2026-03-15</footer>
+
+<script type="module">
+import mermaid from 'https://esm.sh/mermaid@11';
+mermaid.initialize({
+  startOnLoad: true,
+  theme: 'dark',
+  gantt: {
+    titleTopMargin: 10,
+    barHeight: 22,
+    barGap: 4,
+    topPadding: 40,
+    leftPadding: 60,
+    gridLineStartPadding: 20,
+    fontSize: 12,
+    sectionFontSize: 14,
+    numberSectionStyles: 4,
+    axisFormat: '%b %d',
+  },
+  themeVariables: {
+    darkMode: true,
+    background: '#161b24',
+    primaryColor: '#5b9cf5',
+    primaryBorderColor: '#3d6faa',
+    primaryTextColor: '#c8cdd5',
+    secondaryColor: '#a47de8',
+    tertiaryColor: '#4eca8b',
+    critBkgColor: '#e5634d',
+    critBorderColor: '#c44433',
+    taskTextColor: '#e8ecf2',
+    taskTextOutsideColor: '#c8cdd5',
+    sectionBkgColor: '#1e2430',
+    sectionBkgColor2: '#232a36',
+    gridColor: '#2a3040',
+    doneTaskBkgColor: '#4eca8b',
+    activeTaskBkgColor: '#5b9cf5',
+    taskBkgColor: '#3d5080',
+    taskBorderColor: '#4a6090',
+    todayLineColor: '#d4a853',
+  }
+});
+</script>
+</body>
+</html>

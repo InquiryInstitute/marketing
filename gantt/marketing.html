@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Castalia Marketing Roadmap</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0f14;
+  --surface: #161b24;
+  --border: #2a3040;
+  --text: #c8cdd5;
+  --heading: #e8ecf2;
+  --amber: #d4a853;
+  --blue: #5b9cf5;
+  --green: #4eca8b;
+  --red: #e5634d;
+  --purple: #a47de8;
+  --rose: #e86b8a;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  min-height: 100vh;
+  padding: 2rem;
+}
+h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--amber);
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+.subtitle {
+  text-align: center;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+.chart-container {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+.phase-title {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--heading);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.phase-title span {
+  color: var(--amber);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.stat-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--amber);
+}
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text);
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.kpi {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+}
+.kpi-phase {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--amber);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+.kpi-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.kpi-row:last-child { border-bottom: none; }
+.kpi-val {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  color: var(--green);
+}
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text);
+  opacity: 0.4;
+  margin-top: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+</style>
+</head>
+<body>
+
+<h1>Marketing Roadmap</h1>
+<p class="subtitle">Castalia Institute — 12-month marketing plan aligned to product delivery</p>
+
+<div class="stats">
+  <div class="stat"><div class="stat-value">27</div><div class="stat-label">Issues</div></div>
+  <div class="stat"><div class="stat-value">$3K</div><div class="stat-label">Year 1 Budget</div></div>
+  <div class="stat"><div class="stat-value">7.5h</div><div class="stat-label">Weekly (w/ agents)</div></div>
+  <div class="stat"><div class="stat-value">$12K</div><div class="stat-label">MRR Target (M12)</div></div>
+</div>
+
+<div class="kpi-grid">
+  <div class="kpi">
+    <div class="kpi-phase">End of Phase 1 (M3)</div>
+    <div class="kpi-row"><span>Email list</span><span class="kpi-val">500</span></div>
+    <div class="kpi-row"><span>Paid members</span><span class="kpi-val">10</span></div>
+    <div class="kpi-row"><span>Pages indexed</span><span class="kpi-val">400+</span></div>
+    <div class="kpi-row"><span>MRR</span><span class="kpi-val">$490</span></div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-phase">End of Phase 2 (M6)</div>
+    <div class="kpi-row"><span>Email list</span><span class="kpi-val">2,000</span></div>
+    <div class="kpi-row"><span>Paid members</span><span class="kpi-val">100</span></div>
+    <div class="kpi-row"><span>Atlas pre-orders</span><span class="kpi-val">300</span></div>
+    <div class="kpi-row"><span>MRR</span><span class="kpi-val">$3,000</span></div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-phase">End of Phase 3 (M12)</div>
+    <div class="kpi-row"><span>Email list</span><span class="kpi-val">5,000</span></div>
+    <div class="kpi-row"><span>Paid members</span><span class="kpi-val">500</span></div>
+    <div class="kpi-row"><span>Organic sessions</span><span class="kpi-val">15K/mo</span></div>
+    <div class="kpi-row"><span>MRR</span><span class="kpi-val">$12,000</span></div>
+  </div>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#e5634d"></div>Revenue / Conversion</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#5b9cf5"></div>Social Media</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4eca8b"></div>Content / SEO</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#a47de8"></div>Email</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#d4a853"></div>Events / Crowdfunding</div>
+</div>
+
+<div class="chart-container">
+  <div class="phase-title">Phase 1: Foundation <span>Months 1–3 · $0 spend · 18h/week</span></div>
+  <pre class="mermaid">
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+    tickInterval 1week
+
+    section Week 1-2 — Setup
+    Create social accounts (X, IG, Pinterest, Threads, Bluesky) :p1_accounts, 2026-04-01, 3d
+    Create 3 lead magnets (PDFs)              :p1_magnets, 2026-04-02, 7d
+    Join 5 Facebook homeschool groups         :p1_fbgroups, 2026-04-01, 5d
+    Publish first 10 Pinterest pins           :p1_pins, 2026-04-07, 7d
+
+    section Week 3-4 — Seeding
+    First X/Twitter thread                    :p1_thread, 2026-04-14, 3d
+    Reddit karma-building (no links)          :p1_reddit, 2026-04-07, 28d
+    First Instagram Reel (Faculty demo)       :p1_reel, 2026-04-21, 3d
+
+    section Month 2 — Engagement
+    Launch email list with lead magnets       :p1_email, 2026-05-01, 14d
+    First co-op demo offer (Facebook)         :p1_coop, 2026-05-04, 7d
+    Begin weekly content cadence (Mon-Sat)    :p1_cadence, 2026-05-01, 56d
+    Pitch first 3 podcasts                    :p1_podcast, 2026-05-11, 14d
+
+    section Month 3 — Conversion
+    Send first conversion emails (day 14+)    :crit, p1_convert, 2026-06-01, 14d
+    First build-in-public post (real metrics) :p1_bip, 2026-06-08, 3d
+    Submit AMA to r/edtech or r/IAmA          :p1_ama, 2026-06-15, 7d
+  </pre>
+</div>
+
+<div class="chart-container">
+  <div class="phase-title">Phase 2: Growth <span>Months 4–6 · ~$1,000 spend · 18h/week</span></div>
+  <pre class="mermaid">
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+    tickInterval 1week
+
+    section Month 4 — Crowdfunding Warm-up
+    Monthly theme: Founding Cohort            :p2_theme4, 2026-07-01, 28d
+    Atlas tease campaign (email + social)     :p2_tease, 2026-07-07, 21d
+    Continue weekly cadence                   :p2_cadence, 2026-07-01, 84d
+
+    section Month 5 — Launch Prep
+    Monthly theme: Ask Anything               :p2_theme5, 2026-08-01, 28d
+    Atlas crowdfunding 4-week ramp            :crit, p2_atlas, 2026-08-01, 28d
+    iNQ Cards Genesis Deck launch             :crit, p2_cards, 2026-08-15, 21d
+
+    section Month 6 — Conventions
+    First homeschool convention (GHC)         :p2_conv1, 2026-09-01, 5d
+    Second convention (THSC or FPEA)          :p2_conv2, 2026-09-15, 5d
+    Monthly theme: Summer Reading             :p2_theme6, 2026-09-01, 28d
+  </pre>
+</div>
+
+<div class="chart-container">
+  <div class="phase-title">Phase 3: Scale <span>Months 7–12 · ~$2,000 spend · 26h/week</span></div>
+  <pre class="mermaid">
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b
+    tickInterval 2week
+
+    section M7-8 — Video Launch
+    Launch YouTube (Ask the Faculty + Readings) :p3_youtube, 2026-10-01, 56d
+    Launch TikTok (Faculty conversation clips)  :p3_tiktok, 2026-10-01, 56d
+    Monthly: Knowledge You Can Hold (M7)        :p3_m7, 2026-10-01, 28d
+    Monthly: Back to School (M8)                :p3_m8, 2026-11-01, 28d
+
+    section M9-10 — Hardware Social Proof
+    Atlas unboxing content campaign             :crit, p3_unbox, 2026-12-01, 28d
+    iNQ Cards monthly reveal content            :p3_reveal, 2026-12-01, 56d
+    Monthly: Atlas Arrives (M9)                 :p3_m9, 2026-12-01, 28d
+    Monthly: Risk Report (M10)                  :p3_m10, 2027-01-01, 28d
+
+    section M11-12 — Revenue + Year 2 Prep
+    Holiday gift guide campaign                 :crit, p3_holiday, 2027-02-01, 21d
+    Prepare Google Ads for M15 launch           :p3_ads, 2027-02-08, 28d
+    Year One retrospective                      :p3_retro, 2027-03-01, 14d
+    Monthly: Gift Guide (M11)                   :p3_m11, 2027-02-01, 28d
+    Monthly: Year One (M12)                     :p3_m12, 2027-03-01, 28d
+  </pre>
+</div>
+
+<div class="chart-container">
+  <div class="phase-title">Channel Ramp <span>Platform activation timeline</span></div>
+  <pre class="mermaid">
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b
+    tickInterval 1month
+
+    section Always-On (M1+)
+    Facebook (homeschool groups)       :active, ch_fb, 2026-04-01, 365d
+    Pinterest (curriculum + art)       :active, ch_pin, 2026-04-01, 365d
+    X/Twitter (founder voice)          :active, ch_x, 2026-04-01, 365d
+    Reddit (karma first, then share)   :active, ch_red, 2026-04-01, 365d
+    Email (Buttondown → Loops)         :active, ch_email, 2026-04-01, 365d
+
+    section Phase 2 Add (M4+)
+    Instagram (visual products)        :ch_ig, 2026-04-01, 365d
+    Podcasts (guest appearances)       :ch_pod, 2026-05-01, 335d
+    Conventions (2-3 per year)         :ch_conv, 2026-09-01, 210d
+
+    section Phase 3 Add (M7+)
+    YouTube (long-form authority)      :ch_yt, 2026-10-01, 180d
+    TikTok (viral discovery)           :ch_tt, 2026-10-01, 180d
+    Google Ads ($1K/mo)                :ch_gads, 2027-07-01, 1d
+  </pre>
+</div>
+
+<footer>Castalia Institute · MARKETING_STRATEGY.md · Generated 2026-03-15</footer>
+
+<script type="module">
+import mermaid from 'https://esm.sh/mermaid@11';
+mermaid.initialize({
+  startOnLoad: true,
+  theme: 'dark',
+  gantt: {
+    titleTopMargin: 10,
+    barHeight: 22,
+    barGap: 4,
+    topPadding: 40,
+    leftPadding: 60,
+    gridLineStartPadding: 20,
+    fontSize: 12,
+    sectionFontSize: 14,
+    numberSectionStyles: 4,
+    axisFormat: '%b %d',
+  },
+  themeVariables: {
+    darkMode: true,
+    background: '#161b24',
+    primaryColor: '#5b9cf5',
+    primaryBorderColor: '#3d6faa',
+    primaryTextColor: '#c8cdd5',
+    secondaryColor: '#a47de8',
+    tertiaryColor: '#4eca8b',
+    critBkgColor: '#e5634d',
+    critBorderColor: '#c44433',
+    taskTextColor: '#e8ecf2',
+    taskTextOutsideColor: '#c8cdd5',
+    sectionBkgColor: '#1e2430',
+    sectionBkgColor2: '#232a36',
+    gridColor: '#2a3040',
+    doneTaskBkgColor: '#4eca8b',
+    activeTaskBkgColor: '#5b9cf5',
+    taskBkgColor: '#3d5080',
+    taskBorderColor: '#4a6090',
+    todayLineColor: '#d4a853',
+  }
+});
+</script>
+</body>
+</html>
