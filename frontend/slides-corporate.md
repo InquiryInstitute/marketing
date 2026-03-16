@@ -17,7 +17,7 @@ mdc: true
 
 <br>
 
-**enterprise@castalia.institute · castalia.institute/pitch**
+**enterprise@castalia.institute · castalia.institute/pitch/corporate**
 
 <div class="abs-bl mx-14 my-12 flex gap-2">
   <div class="text-sm opacity-50">Castalia Institute · Confidential</div>

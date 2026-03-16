@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build",
-    "build:pitch": "slidev build slides-corporate.md --base /pitch/ --out dist/pitch",
+    "build:pitch": "slidev build slides-corporate.md --base /pitch/corporate/ --out dist/pitch/corporate",
     "export": "slidev export"
   },
   "devDependencies": {

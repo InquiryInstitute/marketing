@@ -50,6 +50,11 @@ jobs:
           mkdir -p frontend/dist/gantt
           cp gantt/*.html frontend/dist/gantt/
 
+      - name: Copy pitch hub to dist
+        run: |
+          mkdir -p frontend/dist/pitch
+          cp frontend/public/pitch/index.html frontend/dist/pitch/
+
       - name: Copy CNAME to dist
         run: cp CNAME frontend/dist/CNAME
 

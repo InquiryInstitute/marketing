@@ -20,6 +20,9 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 <div class="abs-bl mx-14 my-12 flex gap-2">
   <div class="text-sm opacity-50">Castalia Institute · custodian@castalia.institute</div>
 </div>
+<div class="abs-br mx-14 my-12 text-sm">
+  <a href="/pitch/" class="!opacity-70 hover:!opacity-100">All pitch decks →</a>
+</div>
 
 ---
 
